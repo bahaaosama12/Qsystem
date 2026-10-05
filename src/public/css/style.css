@@ -1,0 +1,276 @@
+:root {
+    --primary-blue: #005b96;
+    --dark-blue: #123b5d;
+    --yellow: #ffd200;
+    --light-yellow: #fff4c7;
+    --border-gray: #d1d5db;
+    --text-gray: #6b7280;
+}
+/* =========================
+   Global
+========================= */
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark-blue);
+}
+/* =========================
+   Header
+========================= */
+.page-title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+.page-subtitle {
+    margin-top: 5px;
+    font-size: 17px;
+    color: var(--text-gray);
+}
+/* =========================
+   Booking Form
+========================= */
+.booking-form {
+    max-width: 560px;
+    padding: 38px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+}
+.form-label {
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+.form-control {
+    height: 52px;
+    border-radius: 9px;
+}
+.form-control:focus {
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 3px rgba(0, 91, 150, 0.12);
+}
+.continue-btn {
+    height: 52px;
+    border: none;
+    border-radius: 9px;
+    background: var(--yellow);
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+.continue-btn:hover {
+    background: #f4c500;
+    color: var(--dark-blue);
+}
+/* =========================
+   Modal
+========================= */
+.modal-content {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 55px rgba(0, 0, 0, 0.22);
+}
+/* =========================
+   Ticket
+========================= */
+.ticket {
+    position: relative;
+    padding: 30px 35px 32px;
+    text-align: center;
+}
+/* =========================
+   Close Button
+========================= */
+.ticket-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--yellow);
+    border-radius: 50%;
+    background: #ffffff;
+    color: #d9a800;
+    cursor: pointer;
+}
+.ticket-close:hover {
+    background: var(--yellow);
+    color: var(--dark-blue);
+}
+/* =========================
+   Ticket Header
+========================= */
+.ticket-logo {
+    margin-bottom: 2px;
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--primary-blue);
+}
+.ticket-subtitle {
+    margin-bottom: 18px;
+    font-size: 15px;
+    color: var(--text-gray);
+}
+.ticket-divider {
+    margin-bottom: 20px;
+    border-top: 2px dashed var(--yellow);
+}
+/* =========================
+   Branch
+========================= */
+.ticket-branch {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* =========================
+   Queue
+========================= */
+.ticket-queue {
+    width: fit-content;
+    min-width: 125px;
+    margin: 0 auto 14px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background: var(--light-yellow);
+    color: var(--primary-blue);
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+/* =========================
+   Date / Time
+========================= */
+.ticket-time {
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+/* =========================
+   Information
+========================= */
+.ticket-info {
+    padding: 15px 0;
+    border-top: 2px dashed var(--yellow);
+    border-bottom: 2px dashed var(--yellow);
+}
+.ticket-info-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+.ticket-info-row:last-child {
+    margin-bottom: 0;
+}
+.ticket-info-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    background: var(--yellow);
+    color: var(--dark-blue);
+}
+.ticket-info-text {
+    font-size: 15px;
+    color: var(--dark-blue);
+}
+.ticket-department {
+    font-weight: 700;
+}
+.ticket-service {
+    color: #3f5568;
+}
+/* =========================
+   Note
+========================= */
+.ticket-note {
+    margin: 14px 0 20px;
+    padding: 13px 15px;
+    border-radius: 10px;
+    background: #f3f5f7;
+    color: var(--dark-blue);
+    font-size: 15px;
+    line-height: 1.7;
+}
+/* =========================
+   Ticket Buttons
+========================= */
+.ticket-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.ticket-main-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.ticket-main-actions button {
+    width: 105px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    background: #ffffff;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.ticket-main-actions button:hover {
+    background: #f5f6f7;
+    border-color: #b8bec5;
+}
+.download-btn {
+    width: 220px;
+    height: 44px;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    background: var(--yellow);
+    color: var(--dark-blue);
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+.download-btn:hover {
+    background: #f4c500;
+    color: var(--dark-blue);
+}
+/* =========================
+   Language Switcher
+========================= */
+.language-switcher {
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+}
+.language-switcher button {
+    border: none;
+    background: transparent;
+    color: var(--text-gray);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 5px;
+}
+.language-switcher button:hover {
+    color: var(--primary-blue);
+}
+.language-switcher span {
+    color: var(--border-gray);
+}
