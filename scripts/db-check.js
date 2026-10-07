@@ -1,8 +1,8 @@
 import "dotenv/config";
-import pg from "pg";
+import { createDatabasePool } from "./db-pool.js";
 
 if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL is required");
-const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
+const pool = createDatabasePool();
 let failed = false;
 const report = (name, pass, detail) => {
   console.log(`${pass ? "PASS" : "FAIL"} ${name}: ${detail}`);

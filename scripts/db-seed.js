@@ -1,13 +1,13 @@
 import "dotenv/config";
-import pg from "pg";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { createDatabasePool } from "./db-pool.js";
 
 if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL is required");
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const data = JSON.parse(await readFile(path.join(root, "db", "seed", "v1-data.json"), "utf8"));
-const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
+const pool = createDatabasePool();
 
 async function upsert(client, table, rows, columns, conflictColumns = ["id"]) {
   for (const row of rows) {
