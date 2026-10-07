@@ -475,7 +475,11 @@ bookingForm.addEventListener("submit", async (event) => {
       return;
     }
 
-    console.log("Booking created:", result);
+    const booking = result.data;
+    sessionStorage.setItem("nationalId", booking.national_id);
+    sessionStorage.setItem("phone", booking.phone);
+    sessionStorage.setItem("bookingCreated", "true");
+    window.location.href = "/";
   } catch (error) {
     console.error("Booking failed:", error);
   }
