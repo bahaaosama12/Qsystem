@@ -1,19 +1,29 @@
 import pool from "../config/database.js";
 import type { PoolClient } from "pg";
 
-export const getBranchesByCity = async (cityId: number) => {
+export const getBranches = async (cityId?: number, governorateId?: number) => {
   const result = await pool.query(
     `
-      SELECT id, branch_code, name, status
-      FROM branches
-      WHERE city_id = $1
-        AND status = 'ACTIVE'
-      ORDER BY id;
+      SELECT b.id, b.branch_code, b.name, b.status
+      FROM branches b
+      JOIN cities c ON c.id = b.city_id
+      WHERE ($1::integer IS NULL OR b.city_id = $1)
+        AND ($2::integer IS NULL OR c.governorate_id = $2)
+        AND b.status = 'ACTIVE'
+      ORDER BY b.id;
     `,
-    [cityId]
+    [cityId ?? null, governorateId ?? null]
   );
 
   return result.rows;
+};
+
+export const getBranchById = async (branchId: number) => {
+  const result = await pool.query(
+    "SELECT id, branch_code, name, city_id, class_id, status, latitude, longitude FROM branches WHERE id = $1",
+    [branchId],
+  );
+  return result.rows[0] ?? null;
 };
 
 export const getActiveBranch = async (

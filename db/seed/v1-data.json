@@ -1,0 +1,5777 @@
+{
+  "governorates": [
+    {
+      "id": 1,
+      "name_en": "Cairo",
+      "name_ar": "القاهرة"
+    },
+    {
+      "id": 2,
+      "name_en": "Alexandria",
+      "name_ar": "الإسكندرية"
+    },
+    {
+      "id": 3,
+      "name_en": "Port Said",
+      "name_ar": "بورسعيد"
+    },
+    {
+      "id": 4,
+      "name_en": "Suez",
+      "name_ar": "السويس"
+    },
+    {
+      "id": 5,
+      "name_en": "Damietta",
+      "name_ar": "دمياط"
+    },
+    {
+      "id": 6,
+      "name_en": "Dakahlia",
+      "name_ar": "الدقهلية"
+    },
+    {
+      "id": 7,
+      "name_en": "Sharqia",
+      "name_ar": "الشرقية"
+    },
+    {
+      "id": 8,
+      "name_en": "Qalyubia",
+      "name_ar": "القليوبية"
+    },
+    {
+      "id": 9,
+      "name_en": "Kafr El Sheikh",
+      "name_ar": "كفر الشيخ"
+    },
+    {
+      "id": 10,
+      "name_en": "Gharbia",
+      "name_ar": "الغربية"
+    },
+    {
+      "id": 11,
+      "name_en": "Monufia",
+      "name_ar": "المنوفية"
+    },
+    {
+      "id": 12,
+      "name_en": "Beheira",
+      "name_ar": "البحيرة"
+    },
+    {
+      "id": 13,
+      "name_en": "Ismailia",
+      "name_ar": "الإسماعيلية"
+    },
+    {
+      "id": 14,
+      "name_en": "Giza",
+      "name_ar": "الجيزة"
+    },
+    {
+      "id": 15,
+      "name_en": "Beni Suef",
+      "name_ar": "بني سويف"
+    },
+    {
+      "id": 16,
+      "name_en": "Fayoum",
+      "name_ar": "الفيوم"
+    },
+    {
+      "id": 17,
+      "name_en": "Minya",
+      "name_ar": "المنيا"
+    },
+    {
+      "id": 18,
+      "name_en": "Assiut",
+      "name_ar": "أسيوط"
+    },
+    {
+      "id": 19,
+      "name_en": "Sohag",
+      "name_ar": "سوهاج"
+    },
+    {
+      "id": 20,
+      "name_en": "Qena",
+      "name_ar": "قنا"
+    },
+    {
+      "id": 21,
+      "name_en": "Aswan",
+      "name_ar": "أسوان"
+    },
+    {
+      "id": 22,
+      "name_en": "Luxor",
+      "name_ar": "الأقصر"
+    },
+    {
+      "id": 23,
+      "name_en": "Red Sea",
+      "name_ar": "البحر الأحمر"
+    },
+    {
+      "id": 24,
+      "name_en": "New Valley",
+      "name_ar": "الوادي الجديد"
+    },
+    {
+      "id": 25,
+      "name_en": "Matrouh",
+      "name_ar": "مطروح"
+    },
+    {
+      "id": 26,
+      "name_en": "North Sinai",
+      "name_ar": "شمال سيناء"
+    },
+    {
+      "id": 27,
+      "name_en": "South Sinai",
+      "name_ar": "جنوب سيناء"
+    }
+  ],
+  "cities": [
+    {
+      "id": 2,
+      "name_en": "Helwan",
+      "governorate_id": 1,
+      "name_ar": "حلوان"
+    },
+    {
+      "id": 3,
+      "name_en": "Mataria",
+      "governorate_id": 1,
+      "name_ar": "المطرية"
+    },
+    {
+      "id": 4,
+      "name_en": "Ain Shams",
+      "governorate_id": 1,
+      "name_ar": "عين شمس"
+    },
+    {
+      "id": 5,
+      "name_en": "Nasr City",
+      "governorate_id": 1,
+      "name_ar": "مدينة نصر"
+    },
+    {
+      "id": 6,
+      "name_en": "Mokattam",
+      "governorate_id": 1,
+      "name_ar": "المقطم"
+    },
+    {
+      "id": 7,
+      "name_en": "Maadi",
+      "governorate_id": 1,
+      "name_ar": "المعادي"
+    },
+    {
+      "id": 8,
+      "name_en": "Heliopolis",
+      "governorate_id": 1,
+      "name_ar": "مصر الجديدة"
+    },
+    {
+      "id": 9,
+      "name_en": "Shubra",
+      "governorate_id": 1,
+      "name_ar": "شبرا"
+    },
+    {
+      "id": 10,
+      "name_en": "Gesr El Suez",
+      "governorate_id": 1,
+      "name_ar": "جسر السويس"
+    },
+    {
+      "id": 11,
+      "name_en": "El Salam",
+      "governorate_id": 1,
+      "name_ar": "السلام"
+    },
+    {
+      "id": 12,
+      "name_en": "El Marg",
+      "governorate_id": 1,
+      "name_ar": "المرج"
+    },
+    {
+      "id": 13,
+      "name_en": "New Cairo",
+      "governorate_id": 1,
+      "name_ar": "القاهرة الجديدة"
+    },
+    {
+      "id": 14,
+      "name_en": "Downtown",
+      "governorate_id": 1,
+      "name_ar": "وسط البلد"
+    },
+    {
+      "id": 15,
+      "name_en": "El Nahda",
+      "governorate_id": 1,
+      "name_ar": "النهضة"
+    },
+    {
+      "id": 16,
+      "name_en": "Dar El Salam",
+      "governorate_id": 1,
+      "name_ar": "دار السلام"
+    },
+    {
+      "id": 17,
+      "name_en": "Sayeda Zeinab",
+      "governorate_id": 1,
+      "name_ar": "السيدة زينب"
+    },
+    {
+      "id": 18,
+      "name_en": "Ramses",
+      "governorate_id": 1,
+      "name_ar": "رمسيس"
+    },
+    {
+      "id": 20,
+      "name_en": "Hadayek El Qobba",
+      "governorate_id": 1,
+      "name_ar": "حدائق القبة"
+    },
+    {
+      "id": 21,
+      "name_en": "Old Cairo",
+      "governorate_id": 1,
+      "name_ar": "مصر القديمة"
+    },
+    {
+      "id": 22,
+      "name_en": "Manial",
+      "governorate_id": 1,
+      "name_ar": "المنيل"
+    },
+    {
+      "id": 23,
+      "name_en": "Rehab City",
+      "governorate_id": 1,
+      "name_ar": "مدينة الرحاب"
+    },
+    {
+      "id": 24,
+      "name_en": "Shorouk City",
+      "governorate_id": 1,
+      "name_ar": "مدينة الشروق"
+    },
+    {
+      "id": 25,
+      "name_en": "15 May",
+      "governorate_id": 1,
+      "name_ar": "15 مايو"
+    },
+    {
+      "id": 26,
+      "name_en": "Tebbin",
+      "governorate_id": 1,
+      "name_ar": "التبين"
+    },
+    {
+      "id": 27,
+      "name_en": "Basatin",
+      "governorate_id": 1,
+      "name_ar": "البساتين"
+    },
+    {
+      "id": 28,
+      "name_en": "El Darb El Ahmar",
+      "governorate_id": 1,
+      "name_ar": "الدرب الأحمر"
+    },
+    {
+      "id": 29,
+      "name_en": "Mansheya / Bab El Shaaria",
+      "governorate_id": 1,
+      "name_ar": "المنشية / باب الشعرية"
+    },
+    {
+      "id": 30,
+      "name_en": "Qasr El Nil",
+      "governorate_id": 1,
+      "name_ar": "قصر النيل"
+    },
+    {
+      "id": 31,
+      "name_en": "Wadi Hof",
+      "governorate_id": 1,
+      "name_ar": "وادي حوف"
+    },
+    {
+      "id": 32,
+      "name_en": "Ayat",
+      "governorate_id": 14,
+      "name_ar": "العياط"
+    },
+    {
+      "id": 33,
+      "name_en": "Giza",
+      "governorate_id": 14,
+      "name_ar": "الجيزة"
+    },
+    {
+      "id": 34,
+      "name_en": "Monib",
+      "governorate_id": 14,
+      "name_ar": "المنيب"
+    },
+    {
+      "id": 35,
+      "name_en": "Haram",
+      "governorate_id": 14,
+      "name_ar": "الهرم"
+    },
+    {
+      "id": 36,
+      "name_en": "Faisal",
+      "governorate_id": 14,
+      "name_ar": "فيصل"
+    },
+    {
+      "id": 37,
+      "name_en": "Bulaq El Dakrour",
+      "governorate_id": 14,
+      "name_ar": "بولاق الدكرور"
+    },
+    {
+      "id": 38,
+      "name_en": "Sheikh Zayed",
+      "governorate_id": 14,
+      "name_ar": "الشيخ زايد"
+    },
+    {
+      "id": 39,
+      "name_en": "Agouza",
+      "governorate_id": 14,
+      "name_ar": "العجوزة"
+    },
+    {
+      "id": 40,
+      "name_en": "Dokki",
+      "governorate_id": 14,
+      "name_ar": "الدقي"
+    },
+    {
+      "id": 41,
+      "name_en": "Manshiet El Qanater",
+      "governorate_id": 14,
+      "name_ar": "منشأة القناطر"
+    },
+    {
+      "id": 42,
+      "name_en": "6 October",
+      "governorate_id": 14,
+      "name_ar": "6 أكتوبر"
+    },
+    {
+      "id": 43,
+      "name_en": "Hadayek October",
+      "governorate_id": 14,
+      "name_ar": "حدائق أكتوبر"
+    },
+    {
+      "id": 44,
+      "name_en": "Imbaba",
+      "governorate_id": 14,
+      "name_ar": "إمبابة"
+    },
+    {
+      "id": 45,
+      "name_en": "Warraq",
+      "governorate_id": 14,
+      "name_ar": "الوراق"
+    },
+    {
+      "id": 46,
+      "name_en": "Abu El Nomros",
+      "governorate_id": 14,
+      "name_ar": "أبو النمرس"
+    },
+    {
+      "id": 47,
+      "name_en": "Hawamdeya",
+      "governorate_id": 14,
+      "name_ar": "الحوامدية"
+    },
+    {
+      "id": 48,
+      "name_en": "Badrashin",
+      "governorate_id": 14,
+      "name_ar": "البدرشين"
+    },
+    {
+      "id": 49,
+      "name_en": "Saf",
+      "governorate_id": 14,
+      "name_ar": "الصف"
+    },
+    {
+      "id": 50,
+      "name_en": "Oseem",
+      "governorate_id": 14,
+      "name_ar": "أوسيم"
+    },
+    {
+      "id": 51,
+      "name_en": "Atfeeh",
+      "governorate_id": 14,
+      "name_ar": "أطفيح"
+    },
+    {
+      "id": 52,
+      "name_en": "Kerdasa",
+      "governorate_id": 14,
+      "name_ar": "كرداسة"
+    },
+    {
+      "id": 53,
+      "name_en": "Bishtil",
+      "governorate_id": 14,
+      "name_ar": "بشتيل"
+    },
+    {
+      "id": 54,
+      "name_en": "Shobramant",
+      "governorate_id": 14,
+      "name_ar": "شبرامنت"
+    },
+    {
+      "id": 55,
+      "name_en": "Zamalek",
+      "governorate_id": 14,
+      "name_ar": "الزمالك"
+    },
+    {
+      "id": 57,
+      "name_en": "Wardian",
+      "governorate_id": 2,
+      "name_ar": "الورديان"
+    },
+    {
+      "id": 58,
+      "name_en": "Moharram Bek",
+      "governorate_id": 2,
+      "name_ar": "محرم بك"
+    },
+    {
+      "id": 59,
+      "name_en": "Agami",
+      "governorate_id": 2,
+      "name_ar": "العجمي"
+    },
+    {
+      "id": 60,
+      "name_en": "Mandara",
+      "governorate_id": 2,
+      "name_ar": "المندرة"
+    },
+    {
+      "id": 61,
+      "name_en": "Fleming",
+      "governorate_id": 2,
+      "name_ar": "فلمينج"
+    },
+    {
+      "id": 62,
+      "name_en": "Sidi Bishr",
+      "governorate_id": 2,
+      "name_ar": "سيدي بشر"
+    },
+    {
+      "id": 63,
+      "name_en": "Smouha",
+      "governorate_id": 2,
+      "name_ar": "سموحة"
+    },
+    {
+      "id": 64,
+      "name_en": "Mansheya",
+      "governorate_id": 2,
+      "name_ar": "المنشية"
+    },
+    {
+      "id": 65,
+      "name_en": "Borg El Arab",
+      "governorate_id": 2,
+      "name_ar": "برج العرب"
+    },
+    {
+      "id": 66,
+      "name_en": "Camp Caesar",
+      "governorate_id": 2,
+      "name_ar": "كامب شيزار"
+    },
+    {
+      "id": 67,
+      "name_en": "El Nahda Alexandria",
+      "governorate_id": 2,
+      "name_ar": "النهضة"
+    },
+    {
+      "id": 69,
+      "name_en": "El Syouf",
+      "governorate_id": 2,
+      "name_ar": "السيوف"
+    },
+    {
+      "id": 70,
+      "name_en": "Asafra",
+      "governorate_id": 2,
+      "name_ar": "العصافرة"
+    },
+    {
+      "id": 71,
+      "name_en": "Ameria",
+      "governorate_id": 2,
+      "name_ar": "العامرية"
+    },
+    {
+      "id": 72,
+      "name_en": "El Nakheel",
+      "governorate_id": 2,
+      "name_ar": "النخيل"
+    },
+    {
+      "id": 73,
+      "name_en": "Abu Qir",
+      "governorate_id": 2,
+      "name_ar": "أبو قير"
+    },
+    {
+      "id": 74,
+      "name_en": "El Awad",
+      "governorate_id": 2,
+      "name_ar": "العوايد"
+    },
+    {
+      "id": 75,
+      "name_en": "Alexandria Railway Station",
+      "governorate_id": 2,
+      "name_ar": "محطة قطار الإسكندرية"
+    },
+    {
+      "id": 76,
+      "name_en": "Miami",
+      "governorate_id": 2,
+      "name_ar": "ميامي"
+    },
+    {
+      "id": 77,
+      "name_en": "Sadfa",
+      "governorate_id": 18,
+      "name_ar": "صدفا"
+    },
+    {
+      "id": 78,
+      "name_en": "Assiut",
+      "governorate_id": 18,
+      "name_ar": "أسيوط"
+    },
+    {
+      "id": 79,
+      "name_en": "El Badari",
+      "governorate_id": 18,
+      "name_ar": "البداري"
+    },
+    {
+      "id": 80,
+      "name_en": "El Ghanayem",
+      "governorate_id": 18,
+      "name_ar": "الغنايم"
+    },
+    {
+      "id": 81,
+      "name_en": "Manqabad",
+      "governorate_id": 18,
+      "name_ar": "منقباد"
+    },
+    {
+      "id": 82,
+      "name_en": "New Assiut",
+      "governorate_id": 18,
+      "name_ar": "أسيوط الجديدة"
+    },
+    {
+      "id": 83,
+      "name_en": "Abu Tig",
+      "governorate_id": 18,
+      "name_ar": "أبو تيج"
+    },
+    {
+      "id": 84,
+      "name_en": "Sahel Selim",
+      "governorate_id": 18,
+      "name_ar": "ساحل سليم"
+    },
+    {
+      "id": 85,
+      "name_en": "Abnoub",
+      "governorate_id": 18,
+      "name_ar": "أبنوب"
+    },
+    {
+      "id": 86,
+      "name_en": "El Qusiya",
+      "governorate_id": 18,
+      "name_ar": "القوصية"
+    },
+    {
+      "id": 87,
+      "name_en": "Dairut",
+      "governorate_id": 18,
+      "name_ar": "ديروط"
+    },
+    {
+      "id": 88,
+      "name_en": "Manfalut",
+      "governorate_id": 18,
+      "name_ar": "منفلوط"
+    },
+    {
+      "id": 89,
+      "name_en": "Aswan",
+      "governorate_id": 21,
+      "name_ar": "أسوان"
+    },
+    {
+      "id": 90,
+      "name_en": "Kom Ombo",
+      "governorate_id": 21,
+      "name_ar": "كوم أمبو"
+    },
+    {
+      "id": 91,
+      "name_en": "Edfu",
+      "governorate_id": 21,
+      "name_ar": "إدفو"
+    },
+    {
+      "id": 92,
+      "name_en": "Beni Suef",
+      "governorate_id": 15,
+      "name_ar": "بني سويف"
+    },
+    {
+      "id": 93,
+      "name_en": "Ihnasia",
+      "governorate_id": 15,
+      "name_ar": "إهناسيا"
+    },
+    {
+      "id": 94,
+      "name_en": "Wasta",
+      "governorate_id": 15,
+      "name_ar": "الواسطى"
+    },
+    {
+      "id": 95,
+      "name_en": "Fashn",
+      "governorate_id": 15,
+      "name_ar": "الفشن"
+    },
+    {
+      "id": 96,
+      "name_en": "Nasser",
+      "governorate_id": 15,
+      "name_ar": "ناصر"
+    },
+    {
+      "id": 97,
+      "name_en": "Biba",
+      "governorate_id": 15,
+      "name_ar": "ببا"
+    },
+    {
+      "id": 98,
+      "name_en": "Sumusta",
+      "governorate_id": 15,
+      "name_ar": "سمسطا"
+    },
+    {
+      "id": 99,
+      "name_en": "Mansoura",
+      "governorate_id": 6,
+      "name_ar": "المنصورة"
+    },
+    {
+      "id": 100,
+      "name_en": "Sherbin",
+      "governorate_id": 6,
+      "name_ar": "شربين"
+    },
+    {
+      "id": 101,
+      "name_en": "Dekernes",
+      "governorate_id": 6,
+      "name_ar": "دكرنس"
+    },
+    {
+      "id": 102,
+      "name_en": "Talkha",
+      "governorate_id": 6,
+      "name_ar": "طلخا"
+    },
+    {
+      "id": 103,
+      "name_en": "Stamouni",
+      "governorate_id": 6,
+      "name_ar": "الستاموني"
+    },
+    {
+      "id": 104,
+      "name_en": "Aga",
+      "governorate_id": 6,
+      "name_ar": "أجا"
+    },
+    {
+      "id": 105,
+      "name_en": "Mit Ghamr",
+      "governorate_id": 6,
+      "name_ar": "ميت غمر"
+    },
+    {
+      "id": 106,
+      "name_en": "Belqas",
+      "governorate_id": 6,
+      "name_ar": "بلقاس"
+    },
+    {
+      "id": 107,
+      "name_en": "El Manzala",
+      "governorate_id": 6,
+      "name_ar": "المنزلة"
+    },
+    {
+      "id": 108,
+      "name_en": "Mit Salsil",
+      "governorate_id": 6,
+      "name_ar": "ميت سلسيل"
+    },
+    {
+      "id": 109,
+      "name_en": "Senbellawein",
+      "governorate_id": 6,
+      "name_ar": "السنبلاوين"
+    },
+    {
+      "id": 110,
+      "name_en": "Menyet El Nasr",
+      "governorate_id": 6,
+      "name_ar": "منية النصر"
+    },
+    {
+      "id": 111,
+      "name_en": "Nabroh",
+      "governorate_id": 6,
+      "name_ar": "نبروه"
+    },
+    {
+      "id": 112,
+      "name_en": "Damietta",
+      "governorate_id": 5,
+      "name_ar": "دمياط"
+    },
+    {
+      "id": 113,
+      "name_en": "New Damietta",
+      "governorate_id": 5,
+      "name_ar": "دمياط الجديدة"
+    },
+    {
+      "id": 114,
+      "name_en": "Kafr Saad",
+      "governorate_id": 5,
+      "name_ar": "كفر سعد"
+    },
+    {
+      "id": 115,
+      "name_en": "El Zarqa",
+      "governorate_id": 5,
+      "name_ar": "الزرقا"
+    },
+    {
+      "id": 116,
+      "name_en": "Faraskour",
+      "governorate_id": 5,
+      "name_ar": "فارسكور"
+    },
+    {
+      "id": 118,
+      "name_en": "Kom Hamada",
+      "governorate_id": 12,
+      "name_ar": "كوم حمادة"
+    },
+    {
+      "id": 119,
+      "name_en": "Itay El Barud",
+      "governorate_id": 12,
+      "name_ar": "إيتاي البارود"
+    },
+    {
+      "id": 120,
+      "name_en": "Shubrakhit",
+      "governorate_id": 12,
+      "name_ar": "شبراخيت"
+    },
+    {
+      "id": 121,
+      "name_en": "Damanhur",
+      "governorate_id": 12,
+      "name_ar": "دمنهور"
+    },
+    {
+      "id": 122,
+      "name_en": "Rashid",
+      "governorate_id": 12,
+      "name_ar": "رشيد"
+    },
+    {
+      "id": 123,
+      "name_en": "Kafr El Dawar",
+      "governorate_id": 12,
+      "name_ar": "كفر الدوار"
+    },
+    {
+      "id": 124,
+      "name_en": "Rahmaniya",
+      "governorate_id": 12,
+      "name_ar": "الرحمانية"
+    },
+    {
+      "id": 125,
+      "name_en": "Delengat",
+      "governorate_id": 12,
+      "name_ar": "الدلنجات"
+    },
+    {
+      "id": 126,
+      "name_en": "Abu Homs",
+      "governorate_id": 12,
+      "name_ar": "أبو حمص"
+    },
+    {
+      "id": 127,
+      "name_en": "Idku",
+      "governorate_id": 12,
+      "name_ar": "إدكو"
+    },
+    {
+      "id": 128,
+      "name_en": "Abu El Matamir",
+      "governorate_id": 12,
+      "name_ar": "أبو المطامير"
+    },
+    {
+      "id": 129,
+      "name_en": "Mahmoudia",
+      "governorate_id": 12,
+      "name_ar": "المحمودية"
+    },
+    {
+      "id": 130,
+      "name_en": "Badr",
+      "governorate_id": 12,
+      "name_ar": "بدر"
+    },
+    {
+      "id": 131,
+      "name_en": "Wadi El Natrun",
+      "governorate_id": 12,
+      "name_ar": "وادي النطرون"
+    },
+    {
+      "id": 132,
+      "name_en": "Nubariya",
+      "governorate_id": 12,
+      "name_ar": "النوبارية"
+    },
+    {
+      "id": 133,
+      "name_en": "Hosh Issa",
+      "governorate_id": 12,
+      "name_ar": "حوش عيسى"
+    },
+    {
+      "id": 134,
+      "name_en": "Fayoum",
+      "governorate_id": 16,
+      "name_ar": "الفيوم"
+    },
+    {
+      "id": 135,
+      "name_en": "Etsa",
+      "governorate_id": 16,
+      "name_ar": "إطسا"
+    },
+    {
+      "id": 137,
+      "name_en": "Tamiya",
+      "governorate_id": 16,
+      "name_ar": "طامية"
+    },
+    {
+      "id": 138,
+      "name_en": "Ibshway",
+      "governorate_id": 16,
+      "name_ar": "إبشواي"
+    },
+    {
+      "id": 139,
+      "name_en": "Sennuris",
+      "governorate_id": 16,
+      "name_ar": "سنورس"
+    },
+    {
+      "id": 140,
+      "name_en": "Kafr El Zayat",
+      "governorate_id": 10,
+      "name_ar": "كفر الزيات"
+    },
+    {
+      "id": 141,
+      "name_en": "Basyoun",
+      "governorate_id": 10,
+      "name_ar": "بسيون"
+    },
+    {
+      "id": 142,
+      "name_en": "El Santa",
+      "governorate_id": 10,
+      "name_ar": "السنطة"
+    },
+    {
+      "id": 143,
+      "name_en": "Tanta",
+      "governorate_id": 10,
+      "name_ar": "طنطا"
+    },
+    {
+      "id": 144,
+      "name_en": "El Mahalla El Kubra",
+      "governorate_id": 10,
+      "name_ar": "المحلة الكبرى"
+    },
+    {
+      "id": 145,
+      "name_en": "Sabrbay",
+      "governorate_id": 10,
+      "name_ar": "سبرباي"
+    },
+    {
+      "id": 146,
+      "name_en": "Qutour",
+      "governorate_id": 10,
+      "name_ar": "قطور"
+    },
+    {
+      "id": 147,
+      "name_en": "Samanoud",
+      "governorate_id": 10,
+      "name_ar": "سمنود"
+    },
+    {
+      "id": 148,
+      "name_en": "Zefta",
+      "governorate_id": 10,
+      "name_ar": "زفتى"
+    },
+    {
+      "id": 149,
+      "name_en": "Ismailia",
+      "governorate_id": 13,
+      "name_ar": "الإسماعيلية"
+    },
+    {
+      "id": 150,
+      "name_en": "Tel El Kebir",
+      "governorate_id": 13,
+      "name_ar": "التل الكبير"
+    },
+    {
+      "id": 151,
+      "name_en": "Fayed",
+      "governorate_id": 13,
+      "name_ar": "فايد"
+    },
+    {
+      "id": 152,
+      "name_en": "Sultan Hussein",
+      "governorate_id": 13,
+      "name_ar": "السلطان حسين"
+    },
+    {
+      "id": 153,
+      "name_en": "Qantara",
+      "governorate_id": 13,
+      "name_ar": "القنطرة"
+    },
+    {
+      "id": 154,
+      "name_en": "Abu Suwayr",
+      "governorate_id": 13,
+      "name_ar": "أبو صوير"
+    },
+    {
+      "id": 155,
+      "name_en": "Qassasin",
+      "governorate_id": 13,
+      "name_ar": "القصاصين"
+    },
+    {
+      "id": 156,
+      "name_en": "Kafr El Sheikh",
+      "governorate_id": 9,
+      "name_ar": "كفر الشيخ"
+    },
+    {
+      "id": 157,
+      "name_en": "Riyad",
+      "governorate_id": 9,
+      "name_ar": "الرياض"
+    },
+    {
+      "id": 158,
+      "name_en": "Desouk",
+      "governorate_id": 9,
+      "name_ar": "دسوق"
+    },
+    {
+      "id": 159,
+      "name_en": "Qallin",
+      "governorate_id": 9,
+      "name_ar": "قلين"
+    },
+    {
+      "id": 160,
+      "name_en": "Hamoul",
+      "governorate_id": 9,
+      "name_ar": "الحامول"
+    },
+    {
+      "id": 161,
+      "name_en": "Sidi Salem",
+      "governorate_id": 9,
+      "name_ar": "سيدي سالم"
+    },
+    {
+      "id": 162,
+      "name_en": "Fuwa",
+      "governorate_id": 9,
+      "name_ar": "فوه"
+    },
+    {
+      "id": 163,
+      "name_en": "Motobas",
+      "governorate_id": 9,
+      "name_ar": "مطوبس"
+    },
+    {
+      "id": 164,
+      "name_en": "Baltim",
+      "governorate_id": 9,
+      "name_ar": "بلطيم"
+    },
+    {
+      "id": 165,
+      "name_en": "Biyala",
+      "governorate_id": 9,
+      "name_ar": "بيلا"
+    },
+    {
+      "id": 166,
+      "name_en": "Luxor",
+      "governorate_id": 22,
+      "name_ar": "الأقصر"
+    },
+    {
+      "id": 167,
+      "name_en": "Armant",
+      "governorate_id": 22,
+      "name_ar": "أرمنت"
+    },
+    {
+      "id": 168,
+      "name_en": "Esna",
+      "governorate_id": 22,
+      "name_ar": "إسنا"
+    },
+    {
+      "id": 169,
+      "name_en": "Marsa Matrouh",
+      "governorate_id": 25,
+      "name_ar": "مرسى مطروح"
+    },
+    {
+      "id": 170,
+      "name_en": "El Alamein",
+      "governorate_id": 25,
+      "name_ar": "العلمين"
+    },
+    {
+      "id": 172,
+      "name_en": "Minya",
+      "governorate_id": 17,
+      "name_ar": "المنيا"
+    },
+    {
+      "id": 173,
+      "name_en": "Deir Mawas",
+      "governorate_id": 17,
+      "name_ar": "دير مواس"
+    },
+    {
+      "id": 174,
+      "name_en": "El Adwa",
+      "governorate_id": 17,
+      "name_ar": "العدوة"
+    },
+    {
+      "id": 175,
+      "name_en": "Beni Mazar",
+      "governorate_id": 17,
+      "name_ar": "بني مزار"
+    },
+    {
+      "id": 176,
+      "name_en": "Mallawi",
+      "governorate_id": 17,
+      "name_ar": "ملوي"
+    },
+    {
+      "id": 177,
+      "name_en": "Samalut",
+      "governorate_id": 17,
+      "name_ar": "سمالوط"
+    },
+    {
+      "id": 178,
+      "name_en": "Maghagha",
+      "governorate_id": 17,
+      "name_ar": "مغاغة"
+    },
+    {
+      "id": 179,
+      "name_en": "Matay",
+      "governorate_id": 17,
+      "name_ar": "مطاي"
+    },
+    {
+      "id": 180,
+      "name_en": "Abu Qurqas",
+      "governorate_id": 17,
+      "name_ar": "أبو قرقاص"
+    },
+    {
+      "id": 181,
+      "name_en": "Port Said",
+      "governorate_id": 3,
+      "name_ar": "بورسعيد"
+    },
+    {
+      "id": 182,
+      "name_en": "El Zohour",
+      "governorate_id": 3,
+      "name_ar": "الزهور"
+    },
+    {
+      "id": 183,
+      "name_en": "Benha",
+      "governorate_id": 8,
+      "name_ar": "بنها"
+    },
+    {
+      "id": 184,
+      "name_en": "Shubra El Kheima",
+      "governorate_id": 8,
+      "name_ar": "شبرا الخيمة"
+    },
+    {
+      "id": 185,
+      "name_en": "Khanka",
+      "governorate_id": 8,
+      "name_ar": "الخانكة"
+    },
+    {
+      "id": 186,
+      "name_en": "Toukh",
+      "governorate_id": 8,
+      "name_ar": "طوخ"
+    },
+    {
+      "id": 187,
+      "name_en": "Kafr Shokr",
+      "governorate_id": 8,
+      "name_ar": "كفر شكر"
+    },
+    {
+      "id": 188,
+      "name_en": "Obour City",
+      "governorate_id": 8,
+      "name_ar": "مدينة العبور"
+    },
+    {
+      "id": 189,
+      "name_en": "Qanater El Khairia",
+      "governorate_id": 8,
+      "name_ar": "القناطر الخيرية"
+    },
+    {
+      "id": 190,
+      "name_en": "Shibin El Qanater",
+      "governorate_id": 8,
+      "name_ar": "شبين القناطر"
+    },
+    {
+      "id": 191,
+      "name_en": "Qalyub",
+      "governorate_id": 8,
+      "name_ar": "قليوب"
+    },
+    {
+      "id": 192,
+      "name_en": "El Khusus",
+      "governorate_id": 8,
+      "name_ar": "الخصوص"
+    },
+    {
+      "id": 194,
+      "name_en": "Mostorod",
+      "governorate_id": 8,
+      "name_ar": "مسطرد"
+    },
+    {
+      "id": 195,
+      "name_en": "Qena",
+      "governorate_id": 20,
+      "name_ar": "قنا"
+    },
+    {
+      "id": 196,
+      "name_en": "Abu Tesht",
+      "governorate_id": 20,
+      "name_ar": "أبو تشت"
+    },
+    {
+      "id": 197,
+      "name_en": "Dishna",
+      "governorate_id": 20,
+      "name_ar": "دشنا"
+    },
+    {
+      "id": 198,
+      "name_en": "Naqada",
+      "governorate_id": 20,
+      "name_ar": "نقادة"
+    },
+    {
+      "id": 199,
+      "name_en": "Farshout",
+      "governorate_id": 20,
+      "name_ar": "فرشوط"
+    },
+    {
+      "id": 200,
+      "name_en": "El Salhya",
+      "governorate_id": 20,
+      "name_ar": "الصالحية"
+    },
+    {
+      "id": 201,
+      "name_en": "Qift",
+      "governorate_id": 20,
+      "name_ar": "قفط"
+    },
+    {
+      "id": 202,
+      "name_en": "Nag Hammadi",
+      "governorate_id": 20,
+      "name_ar": "نجع حمادي"
+    },
+    {
+      "id": 203,
+      "name_en": "Qus",
+      "governorate_id": 20,
+      "name_ar": "قوص"
+    },
+    {
+      "id": 204,
+      "name_en": "Hurghada",
+      "governorate_id": 23,
+      "name_ar": "الغردقة"
+    },
+    {
+      "id": 205,
+      "name_en": "El Dahar",
+      "governorate_id": 23,
+      "name_ar": "الدهار"
+    },
+    {
+      "id": 206,
+      "name_en": "Safaga",
+      "governorate_id": 23,
+      "name_ar": "سفاجا"
+    },
+    {
+      "id": 207,
+      "name_en": "Zagazig",
+      "governorate_id": 7,
+      "name_ar": "الزقازيق"
+    },
+    {
+      "id": 208,
+      "name_en": "Abu Hammad",
+      "governorate_id": 7,
+      "name_ar": "أبو حماد"
+    },
+    {
+      "id": 209,
+      "name_en": "San El Hagar",
+      "governorate_id": 7,
+      "name_ar": "صان الحجر"
+    },
+    {
+      "id": 210,
+      "name_en": "Minya El Qamh",
+      "governorate_id": 7,
+      "name_ar": "منيا القمح"
+    },
+    {
+      "id": 211,
+      "name_en": "Ibrahimia",
+      "governorate_id": 7,
+      "name_ar": "الإبراهيمية"
+    },
+    {
+      "id": 212,
+      "name_en": "Anshas",
+      "governorate_id": 7,
+      "name_ar": "أنشاص"
+    },
+    {
+      "id": 213,
+      "name_en": "Abrash",
+      "governorate_id": 7,
+      "name_ar": "أبراش"
+    },
+    {
+      "id": 215,
+      "name_en": "10th of Ramadan",
+      "governorate_id": 7,
+      "name_ar": "العاشر من رمضان"
+    },
+    {
+      "id": 216,
+      "name_en": "Belbeis",
+      "governorate_id": 7,
+      "name_ar": "بلبيس"
+    },
+    {
+      "id": 217,
+      "name_en": "Faqous",
+      "governorate_id": 7,
+      "name_ar": "فاقوس"
+    },
+    {
+      "id": 218,
+      "name_en": "Husseiniya",
+      "governorate_id": 7,
+      "name_ar": "الحسينية"
+    },
+    {
+      "id": 219,
+      "name_en": "Deyerb Negm",
+      "governorate_id": 7,
+      "name_ar": "ديرب نجم"
+    },
+    {
+      "id": 220,
+      "name_en": "Moshtoul El Souq",
+      "governorate_id": 7,
+      "name_ar": "مشتول السوق"
+    },
+    {
+      "id": 221,
+      "name_en": "El Qareen",
+      "governorate_id": 7,
+      "name_ar": "القرين"
+    },
+    {
+      "id": 222,
+      "name_en": "Abu Kabir",
+      "governorate_id": 7,
+      "name_ar": "أبو كبير"
+    },
+    {
+      "id": 223,
+      "name_en": "Awlad Saqr",
+      "governorate_id": 7,
+      "name_ar": "أولاد صقر"
+    },
+    {
+      "id": 224,
+      "name_en": "Kafr Saqr",
+      "governorate_id": 7,
+      "name_ar": "كفر صقر"
+    },
+    {
+      "id": 225,
+      "name_en": "Sohag",
+      "governorate_id": 19,
+      "name_ar": "سوهاج"
+    },
+    {
+      "id": 226,
+      "name_en": "Dar El Salam",
+      "governorate_id": 19,
+      "name_ar": "دار السلام"
+    },
+    {
+      "id": 227,
+      "name_en": "Saqalta",
+      "governorate_id": 19,
+      "name_ar": "ساقلته"
+    },
+    {
+      "id": 228,
+      "name_en": "Gerga",
+      "governorate_id": 19,
+      "name_ar": "جرجا"
+    },
+    {
+      "id": 229,
+      "name_en": "Juhayna",
+      "governorate_id": 19,
+      "name_ar": "جهينة"
+    },
+    {
+      "id": 230,
+      "name_en": "El Kawthar",
+      "governorate_id": 19,
+      "name_ar": "الكوثر"
+    },
+    {
+      "id": 231,
+      "name_en": "Tahta",
+      "governorate_id": 19,
+      "name_ar": "طهطا"
+    },
+    {
+      "id": 232,
+      "name_en": "Akhmim",
+      "governorate_id": 19,
+      "name_ar": "أخميم"
+    },
+    {
+      "id": 233,
+      "name_en": "Baliana",
+      "governorate_id": 19,
+      "name_ar": "البلينا"
+    },
+    {
+      "id": 234,
+      "name_en": "Tama",
+      "governorate_id": 19,
+      "name_ar": "طما"
+    },
+    {
+      "id": 235,
+      "name_en": "El Monshah",
+      "governorate_id": 19,
+      "name_ar": "المنشاة"
+    },
+    {
+      "id": 236,
+      "name_en": "El Maragha",
+      "governorate_id": 19,
+      "name_ar": "المراغة"
+    },
+    {
+      "id": 237,
+      "name_en": "Suez",
+      "governorate_id": 4,
+      "name_ar": "السويس"
+    },
+    {
+      "id": 238,
+      "name_en": "Faisal Suez",
+      "governorate_id": 4,
+      "name_ar": "فيصل"
+    },
+    {
+      "id": 239,
+      "name_en": "Baraka El Sabea",
+      "governorate_id": 11,
+      "name_ar": "بركة السبع"
+    },
+    {
+      "id": 240,
+      "name_en": "Sers El Layan",
+      "governorate_id": 11,
+      "name_ar": "سرس الليان"
+    },
+    {
+      "id": 241,
+      "name_en": "Shibin El Kom",
+      "governorate_id": 11,
+      "name_ar": "شبين الكوم"
+    },
+    {
+      "id": 242,
+      "name_en": "Ashmoun",
+      "governorate_id": 11,
+      "name_ar": "أشمون"
+    },
+    {
+      "id": 243,
+      "name_en": "Sadat City",
+      "governorate_id": 11,
+      "name_ar": "مدينة السادات"
+    },
+    {
+      "id": 244,
+      "name_en": "Menouf",
+      "governorate_id": 11,
+      "name_ar": "منوف"
+    },
+    {
+      "id": 245,
+      "name_en": "El Bagour",
+      "governorate_id": 11,
+      "name_ar": "الباجور"
+    },
+    {
+      "id": 246,
+      "name_en": "Quesna",
+      "governorate_id": 11,
+      "name_ar": "قويسنا"
+    },
+    {
+      "id": 247,
+      "name_en": "Tala",
+      "governorate_id": 11,
+      "name_ar": "تلا"
+    },
+    {
+      "id": 248,
+      "name_en": "El Shohada",
+      "governorate_id": 11,
+      "name_ar": "الشهداء"
+    },
+    {
+      "id": 249,
+      "name_en": "Sentris",
+      "governorate_id": 11,
+      "name_ar": "سنتريس"
+    }
+  ],
+  "branchClasses": [
+    {
+      "id": 1,
+      "name": "A"
+    },
+    {
+      "id": 2,
+      "name": "B"
+    },
+    {
+      "id": 3,
+      "name": "C"
+    },
+    {
+      "id": 4,
+      "name": "D"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name_en": "Customer Service",
+      "is_active": true,
+      "name_ar": "خدمة العملاء"
+    },
+    {
+      "id": 2,
+      "name_en": "Treasury",
+      "is_active": true,
+      "name_ar": "الخزنة"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name_en": "Yellow Card Issuance",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "إنشاء الكارت الأصفر"
+    },
+    {
+      "id": 2,
+      "name_en": "Wallet Activation",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "تفعيل المحفظة"
+    },
+    {
+      "id": 3,
+      "name_en": "Deposit",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "إيداع"
+    },
+    {
+      "id": 4,
+      "name_en": "Withdrawal",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "سحب"
+    },
+    {
+      "id": 5,
+      "name_en": "Payments",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "مدفوعات"
+    },
+    {
+      "id": 6,
+      "name_en": "Remittance Disbursement",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "صرف حوالة"
+    },
+    {
+      "id": 7,
+      "name_en": "Microfinance Activation",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "تفعيل تمويل متناهي الصغر"
+    },
+    {
+      "id": 8,
+      "name_en": "Signatures",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "إمضاءات"
+    },
+    {
+      "id": 9,
+      "name_en": "Yellow Card Replacement",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "بدل فاقد للكارت الأصفر"
+    },
+    {
+      "id": 10,
+      "name_en": "EgyTrust Services",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "خدمات إيجي بتراست"
+    },
+    {
+      "id": 11,
+      "name_en": "Money Floos Card Activation",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "تفعيل كارت موني فلوس"
+    },
+    {
+      "id": 12,
+      "name_en": "Installment / BNPL Contract Activation",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "تفعيل التقسيط / عقد BNPL"
+    },
+    {
+      "id": 13,
+      "name_en": "Complaints",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "الشكاوى"
+    },
+    {
+      "id": 14,
+      "name_en": "Inquiries",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "الاستفسارات"
+    },
+    {
+      "id": 15,
+      "name_en": "Other Services",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "خدمات أخرى"
+    },
+    {
+      "id": 16,
+      "name_en": "Cash Deposit",
+      "department_id": 2,
+      "is_active": true,
+      "name_ar": "إيداع نقدي"
+    },
+    {
+      "id": 17,
+      "name_en": "Cash Withdrawal",
+      "department_id": 2,
+      "is_active": true,
+      "name_ar": "سحب نقدي"
+    },
+    {
+      "id": 18,
+      "name_en": "Bill Payments",
+      "department_id": 2,
+      "is_active": true,
+      "name_ar": "دفع الفواتير"
+    },
+    {
+      "id": 19,
+      "name_en": "Money Transfer",
+      "department_id": 2,
+      "is_active": true,
+      "name_ar": "تحويل أموال"
+    },
+    {
+      "id": 20,
+      "name_en": "Loan Disbursement",
+      "department_id": 1,
+      "is_active": true,
+      "name_ar": "صرف قرض"
+    }
+  ],
+  "branchClassServices": [
+    {
+      "branch_class_id": 1,
+      "service_id": 1
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 2
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 3
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 4
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 5
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 6
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 7
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 8
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 9
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 10
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 11
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 12
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 13
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 14
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 15
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 16
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 17
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 18
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 19
+    },
+    {
+      "branch_class_id": 1,
+      "service_id": 20
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 1
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 2
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 3
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 4
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 5
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 6
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 8
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 13
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 14
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 16
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 17
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 18
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 19
+    },
+    {
+      "branch_class_id": 2,
+      "service_id": 20
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 1
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 2
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 3
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 4
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 5
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 13
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 14
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 16
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 17
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 18
+    },
+    {
+      "branch_class_id": 3,
+      "service_id": 20
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 3
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 4
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 5
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 13
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 14
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 16
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 17
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 18
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 19
+    },
+    {
+      "branch_class_id": 4,
+      "service_id": 20
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "branch_code": "001",
+      "name": "حلوان",
+      "city_id": 2,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.84959351",
+      "longitude": "31.33293724"
+    },
+    {
+      "id": 2,
+      "branch_code": "002",
+      "name": "المطرية",
+      "city_id": 3,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.11086198",
+      "longitude": "31.30424477"
+    },
+    {
+      "id": 3,
+      "branch_code": "003",
+      "name": "عين شمس",
+      "city_id": 4,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.12782251",
+      "longitude": "31.32093381"
+    },
+    {
+      "id": 4,
+      "branch_code": "004",
+      "name": "الطيران",
+      "city_id": 5,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.06585540",
+      "longitude": "31.32503250"
+    },
+    {
+      "id": 5,
+      "branch_code": "005",
+      "name": "المقطم",
+      "city_id": 6,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.01287953",
+      "longitude": "31.28868843"
+    },
+    {
+      "id": 6,
+      "branch_code": "006",
+      "name": "المعادي دجلة",
+      "city_id": 7,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.97124220",
+      "longitude": "31.27407010"
+    },
+    {
+      "id": 7,
+      "branch_code": "007",
+      "name": "هليوبوليس",
+      "city_id": 8,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.07959950",
+      "longitude": "31.32688880"
+    },
+    {
+      "id": 8,
+      "branch_code": "008",
+      "name": "عين شمس أحمد عصمت",
+      "city_id": 4,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.12646980",
+      "longitude": "31.33007080"
+    },
+    {
+      "id": 9,
+      "branch_code": "009",
+      "name": "البطراوي",
+      "city_id": 5,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.06155290",
+      "longitude": "31.33501730"
+    },
+    {
+      "id": 10,
+      "branch_code": "010",
+      "name": "شبرا الخلفاوي",
+      "city_id": 9,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.09532710",
+      "longitude": "31.24532110"
+    },
+    {
+      "id": 11,
+      "branch_code": "011",
+      "name": "المعادي تاون سنتر",
+      "city_id": 7,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.95644970",
+      "longitude": "31.25117960"
+    },
+    {
+      "id": 12,
+      "branch_code": "012",
+      "name": "حدائق حلوان",
+      "city_id": 2,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.88990450",
+      "longitude": "31.30344900"
+    },
+    {
+      "id": 13,
+      "branch_code": "013",
+      "name": "الحجاز",
+      "city_id": 8,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.10696590",
+      "longitude": "31.33492827"
+    },
+    {
+      "id": 14,
+      "branch_code": "014",
+      "name": "الحرفيين",
+      "city_id": 10,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.14887710",
+      "longitude": "31.38845600"
+    },
+    {
+      "id": 15,
+      "branch_code": "015",
+      "name": "عزبة النخل",
+      "city_id": 11,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.13933765",
+      "longitude": "31.32438183"
+    },
+    {
+      "id": 16,
+      "branch_code": "016",
+      "name": "جسر السويس",
+      "city_id": 10,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.10471820",
+      "longitude": "31.31983790"
+    },
+    {
+      "id": 17,
+      "branch_code": "017",
+      "name": "المعادي النصر",
+      "city_id": 27,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.96305920",
+      "longitude": "31.29016320"
+    },
+    {
+      "id": 18,
+      "branch_code": "018",
+      "name": "الطاقة",
+      "city_id": 5,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.06337179",
+      "longitude": "31.36077716"
+    },
+    {
+      "id": 19,
+      "branch_code": "019",
+      "name": "ميدان سفير",
+      "city_id": 8,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.09731959",
+      "longitude": "31.33688844"
+    },
+    {
+      "id": 20,
+      "branch_code": "020",
+      "name": "التجمع الخامس",
+      "city_id": 13,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.01846299",
+      "longitude": "31.41910855"
+    },
+    {
+      "id": 21,
+      "branch_code": "021",
+      "name": "الحي العاشر",
+      "city_id": 5,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.04930513",
+      "longitude": "31.39092363"
+    },
+    {
+      "id": 22,
+      "branch_code": "022",
+      "name": "وسط البلد",
+      "city_id": 14,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.04737288",
+      "longitude": "31.24215335"
+    },
+    {
+      "id": 23,
+      "branch_code": "023",
+      "name": "دريمز مول",
+      "city_id": 13,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.97616640",
+      "longitude": "31.48021760"
+    },
+    {
+      "id": 24,
+      "branch_code": "024",
+      "name": "النهضة",
+      "city_id": 15,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.16976833",
+      "longitude": "31.44321442"
+    },
+    {
+      "id": 25,
+      "branch_code": "025",
+      "name": "دار السلام",
+      "city_id": 16,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.98120629",
+      "longitude": "31.25629544"
+    },
+    {
+      "id": 26,
+      "branch_code": "026",
+      "name": "سيتي ستارز مول",
+      "city_id": 5,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.07316383",
+      "longitude": "31.34454809"
+    },
+    {
+      "id": 27,
+      "branch_code": "027",
+      "name": "أطلس",
+      "city_id": 2,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.83468976",
+      "longitude": "31.34766460"
+    },
+    {
+      "id": 28,
+      "branch_code": "028",
+      "name": "مدينة الشروق",
+      "city_id": 24,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.13896498",
+      "longitude": "31.63330947"
+    },
+    {
+      "id": 29,
+      "branch_code": "029",
+      "name": "السيدة زينب",
+      "city_id": 17,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.03499663",
+      "longitude": "31.24717422"
+    },
+    {
+      "id": 30,
+      "branch_code": "030",
+      "name": "محطة قطار رمسيس",
+      "city_id": 18,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.04737288",
+      "longitude": "31.24215335"
+    },
+    {
+      "id": 31,
+      "branch_code": "031",
+      "name": "حدائق القبة",
+      "city_id": 20,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.08373634",
+      "longitude": "31.28175468"
+    },
+    {
+      "id": 32,
+      "branch_code": "032",
+      "name": "المطراوي",
+      "city_id": 3,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.11823030",
+      "longitude": "31.30714330"
+    },
+    {
+      "id": 33,
+      "branch_code": "033",
+      "name": "مؤسسة الزكاة",
+      "city_id": 12,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.15071106",
+      "longitude": "31.38127136"
+    },
+    {
+      "id": 34,
+      "branch_code": "034",
+      "name": "باب الشعريه",
+      "city_id": 29,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.05626891",
+      "longitude": "31.25856421"
+    },
+    {
+      "id": 35,
+      "branch_code": "035",
+      "name": "الملك الصالح",
+      "city_id": 21,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.01495098",
+      "longitude": "31.23369588"
+    },
+    {
+      "id": 36,
+      "branch_code": "036",
+      "name": "شارع 9 المعادي",
+      "city_id": 7,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.01296610",
+      "longitude": "31.28921520"
+    },
+    {
+      "id": 37,
+      "branch_code": "037",
+      "name": "المنيل",
+      "city_id": 22,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.02652009",
+      "longitude": "31.22646000"
+    },
+    {
+      "id": 38,
+      "branch_code": "038",
+      "name": "مدينة الرحاب",
+      "city_id": 23,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.05547324",
+      "longitude": "31.49096000"
+    },
+    {
+      "id": 39,
+      "branch_code": "039",
+      "name": "حلمية الزيتون",
+      "city_id": 4,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.11779000",
+      "longitude": "31.31748000"
+    },
+    {
+      "id": 40,
+      "branch_code": "040",
+      "name": "المؤسسة شبرا الخيمة",
+      "city_id": 9,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.11900000",
+      "longitude": "31.24298000"
+    },
+    {
+      "id": 41,
+      "branch_code": "041",
+      "name": "مسره شبرا",
+      "city_id": 9,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.06699369",
+      "longitude": "31.24524249"
+    },
+    {
+      "id": 42,
+      "branch_code": "042",
+      "name": "الفيومي",
+      "city_id": 16,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.98441250",
+      "longitude": "31.24265000"
+    },
+    {
+      "id": 43,
+      "branch_code": "043",
+      "name": "مدينة 15 مايو",
+      "city_id": 25,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.82695000",
+      "longitude": "31.36481000"
+    },
+    {
+      "id": 44,
+      "branch_code": "044",
+      "name": "التبيـــن",
+      "city_id": 26,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.78876000",
+      "longitude": "31.29592000"
+    },
+    {
+      "id": 45,
+      "branch_code": "045",
+      "name": "سكة الوايلي",
+      "city_id": 20,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.09315000",
+      "longitude": "31.27638000"
+    },
+    {
+      "id": 46,
+      "branch_code": "046",
+      "name": "البساتين",
+      "city_id": 27,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.98650000",
+      "longitude": "31.26821000"
+    },
+    {
+      "id": 47,
+      "branch_code": "047",
+      "name": "المغربلين - الدرب الأحمر",
+      "city_id": 28,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.03752140",
+      "longitude": "31.25260280"
+    },
+    {
+      "id": 48,
+      "branch_code": "048",
+      "name": "شارع السد السيدة زينب",
+      "city_id": 17,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.02935410",
+      "longitude": "31.23860130"
+    },
+    {
+      "id": 49,
+      "branch_code": "049",
+      "name": "جامعه 15 مايو",
+      "city_id": 25,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.84282208",
+      "longitude": "31.36130949"
+    },
+    {
+      "id": 50,
+      "branch_code": "050",
+      "name": "كمبوند ميفيدا",
+      "city_id": 13,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.00784437",
+      "longitude": "31.53122743"
+    },
+    {
+      "id": 51,
+      "branch_code": "051",
+      "name": "جامعه الازهر كليه التجاره بنات",
+      "city_id": 5,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.05574569",
+      "longitude": "31.32421400"
+    },
+    {
+      "id": 52,
+      "branch_code": "052",
+      "name": "جامعه الازهر كليه الطب بنين",
+      "city_id": 5,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.05897717",
+      "longitude": "31.31358330"
+    },
+    {
+      "id": 53,
+      "branch_code": "053",
+      "name": "اكاديمية الجزيرة بالمقطم",
+      "city_id": 6,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.01157885",
+      "longitude": "31.30705573"
+    },
+    {
+      "id": 54,
+      "branch_code": "054",
+      "name": "النادى الاهلى مدينه نصر",
+      "city_id": 5,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.07111611",
+      "longitude": "31.35516474"
+    },
+    {
+      "id": 55,
+      "branch_code": "055",
+      "name": "جامعه عين شمس كليه الحقوق",
+      "city_id": 4,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.07746098",
+      "longitude": "31.28648852"
+    },
+    {
+      "id": 56,
+      "branch_code": "056",
+      "name": "جهاز تنميه القاهره الجديده",
+      "city_id": 13,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.02795870",
+      "longitude": "31.46904487"
+    },
+    {
+      "id": 57,
+      "branch_code": "057",
+      "name": "جامعة الازهر كلية الصيدلة",
+      "city_id": 5,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.05411642",
+      "longitude": "31.32333779"
+    },
+    {
+      "id": 58,
+      "branch_code": "058",
+      "name": "جامعه عين شمس كليه الحاسبات",
+      "city_id": 4,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.07884774",
+      "longitude": "31.28464143"
+    },
+    {
+      "id": 59,
+      "branch_code": "059",
+      "name": "جامعه عين شمس كليه التجاره",
+      "city_id": 4,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.07496473",
+      "longitude": "31.28856657"
+    },
+    {
+      "id": 60,
+      "branch_code": "060",
+      "name": "اتحاد نقابات المهن الطبية بالقاهرة",
+      "city_id": 30,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.03273344",
+      "longitude": "31.23199951"
+    },
+    {
+      "id": 61,
+      "branch_code": "061",
+      "name": "المعصرة",
+      "city_id": 31,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.93340350",
+      "longitude": "31.28701120"
+    },
+    {
+      "id": 62,
+      "branch_code": "062",
+      "name": "الورديان",
+      "city_id": 57,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.16706590",
+      "longitude": "29.86967620"
+    },
+    {
+      "id": 63,
+      "branch_code": "063",
+      "name": "محرم بك",
+      "city_id": 58,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.19090000",
+      "longitude": "29.91876000"
+    },
+    {
+      "id": 64,
+      "branch_code": "064",
+      "name": "البيطاش",
+      "city_id": 59,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.11506741",
+      "longitude": "29.79424613"
+    },
+    {
+      "id": 65,
+      "branch_code": "065",
+      "name": "المندرة",
+      "city_id": 60,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.27729840",
+      "longitude": "30.00872580"
+    },
+    {
+      "id": 66,
+      "branch_code": "066",
+      "name": "فلمــــنج",
+      "city_id": 61,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.23250000",
+      "longitude": "29.96076000"
+    },
+    {
+      "id": 67,
+      "branch_code": "067",
+      "name": "سيدي بشر",
+      "city_id": 62,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.25673199",
+      "longitude": "29.99664222"
+    },
+    {
+      "id": 68,
+      "branch_code": "068",
+      "name": "سموحة",
+      "city_id": 63,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.20956989",
+      "longitude": "29.93512079"
+    },
+    {
+      "id": 69,
+      "branch_code": "069",
+      "name": "المنشية",
+      "city_id": 64,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.19830714",
+      "longitude": "29.89339650"
+    },
+    {
+      "id": 70,
+      "branch_code": "070",
+      "name": "برج العرب",
+      "city_id": 65,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.88336000",
+      "longitude": "29.58007000"
+    },
+    {
+      "id": 71,
+      "branch_code": "071",
+      "name": "كامب شيزار",
+      "city_id": 66,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.21371904",
+      "longitude": "29.92162943"
+    },
+    {
+      "id": 72,
+      "branch_code": "072",
+      "name": "النهضة -محافظة الأسكندرية",
+      "city_id": 67,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.98020000",
+      "longitude": "29.92942000"
+    },
+    {
+      "id": 73,
+      "branch_code": "073",
+      "name": "العجمي",
+      "city_id": 59,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.09559043",
+      "longitude": "29.76767063"
+    },
+    {
+      "id": 74,
+      "branch_code": "074",
+      "name": "محمد نجيب سيدي بشر",
+      "city_id": 62,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.25534000",
+      "longitude": "29.98500000"
+    },
+    {
+      "id": 75,
+      "branch_code": "075",
+      "name": "السيوف",
+      "city_id": 69,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.24071374",
+      "longitude": "29.99017125"
+    },
+    {
+      "id": 76,
+      "branch_code": "076",
+      "name": "جميلة بوحريد السيوف",
+      "city_id": 69,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.23974000",
+      "longitude": "29.99259000"
+    },
+    {
+      "id": 77,
+      "branch_code": "077",
+      "name": "شارع 45 العصافرة قبلي",
+      "city_id": 70,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.26305000",
+      "longitude": "30.00661000"
+    },
+    {
+      "id": 78,
+      "branch_code": "078",
+      "name": "العامرية",
+      "city_id": 71,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.22135040",
+      "longitude": "29.95322880"
+    },
+    {
+      "id": 79,
+      "branch_code": "079",
+      "name": "النخيل",
+      "city_id": 72,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.08227728",
+      "longitude": "29.74090219"
+    },
+    {
+      "id": 80,
+      "branch_code": "080",
+      "name": "أبو قير",
+      "city_id": 73,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.31959000",
+      "longitude": "30.06366500"
+    },
+    {
+      "id": 81,
+      "branch_code": "081",
+      "name": "العوايد",
+      "city_id": 74,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.22275760",
+      "longitude": "29.98374400"
+    },
+    {
+      "id": 82,
+      "branch_code": "082",
+      "name": "محطة قطار اسكندرية",
+      "city_id": 75,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.19289000",
+      "longitude": "29.90526000"
+    },
+    {
+      "id": 83,
+      "branch_code": "083",
+      "name": "ميامي",
+      "city_id": 76,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.26902000",
+      "longitude": "29.99458000"
+    },
+    {
+      "id": 84,
+      "branch_code": "084",
+      "name": "صدفا",
+      "city_id": 77,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "26.96494177",
+      "longitude": "31.38146146"
+    },
+    {
+      "id": 85,
+      "branch_code": "085",
+      "name": "سي تي أسيوط",
+      "city_id": 78,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "27.18225292",
+      "longitude": "31.17683444"
+    },
+    {
+      "id": 86,
+      "branch_code": "086",
+      "name": "البداري",
+      "city_id": 79,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "26.99257000",
+      "longitude": "31.41589000"
+    },
+    {
+      "id": 87,
+      "branch_code": "087",
+      "name": "الغنايم",
+      "city_id": 80,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "26.87514000",
+      "longitude": "31.32638000"
+    },
+    {
+      "id": 88,
+      "branch_code": "088",
+      "name": "أسيوط الجمهورية",
+      "city_id": 78,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "27.18345670",
+      "longitude": "31.18248130"
+    },
+    {
+      "id": 89,
+      "branch_code": "089",
+      "name": "أسيوط المحطة",
+      "city_id": 78,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "27.17927640",
+      "longitude": "31.18635150"
+    },
+    {
+      "id": 90,
+      "branch_code": "090",
+      "name": "منقباد",
+      "city_id": 81,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "27.18898054",
+      "longitude": "31.10462921"
+    },
+    {
+      "id": 91,
+      "branch_code": "091",
+      "name": "اسيوط الجديدة البارون",
+      "city_id": 82,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "27.27262000",
+      "longitude": "31.29230000"
+    },
+    {
+      "id": 92,
+      "branch_code": "092",
+      "name": "أبو تيج",
+      "city_id": 83,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "27.05217751",
+      "longitude": "31.31632592"
+    },
+    {
+      "id": 93,
+      "branch_code": "093",
+      "name": "ساحل سليم",
+      "city_id": 84,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "27.06228226",
+      "longitude": "31.33726395"
+    },
+    {
+      "id": 94,
+      "branch_code": "094",
+      "name": "أبنوب",
+      "city_id": 85,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "27.26369127",
+      "longitude": "31.15174928"
+    },
+    {
+      "id": 95,
+      "branch_code": "095",
+      "name": "القوصية",
+      "city_id": 86,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "27.43940622",
+      "longitude": "30.81719816"
+    },
+    {
+      "id": 96,
+      "branch_code": "096",
+      "name": "ديروط",
+      "city_id": 87,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "27.55268710",
+      "longitude": "30.81587146"
+    },
+    {
+      "id": 97,
+      "branch_code": "097",
+      "name": "منفلوط",
+      "city_id": 88,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "27.31045829",
+      "longitude": "30.96276678"
+    },
+    {
+      "id": 98,
+      "branch_code": "098",
+      "name": "محطة قطار اسيوط",
+      "city_id": 78,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "27.17927640",
+      "longitude": "31.18635150"
+    },
+    {
+      "id": 99,
+      "branch_code": "099",
+      "name": "كوم أمبو",
+      "city_id": 90,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "24.47343560",
+      "longitude": "32.94787000"
+    },
+    {
+      "id": 100,
+      "branch_code": "100",
+      "name": "كورنيش النيل أسوان",
+      "city_id": 89,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "24.08996000",
+      "longitude": "32.89501000"
+    },
+    {
+      "id": 101,
+      "branch_code": "101",
+      "name": "ادفو",
+      "city_id": 91,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "24.97770000",
+      "longitude": "32.87630000"
+    },
+    {
+      "id": 102,
+      "branch_code": "102",
+      "name": "أسوان",
+      "city_id": 89,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "24.08665381",
+      "longitude": "32.89859423"
+    },
+    {
+      "id": 103,
+      "branch_code": "103",
+      "name": "الحمرايا",
+      "city_id": 92,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.04462000",
+      "longitude": "31.10891000"
+    },
+    {
+      "id": 104,
+      "branch_code": "104",
+      "name": "بني سويف",
+      "city_id": 92,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.08032601",
+      "longitude": "31.10125422"
+    },
+    {
+      "id": 105,
+      "branch_code": "105",
+      "name": "عبدالسلام عارف",
+      "city_id": 92,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.07058100",
+      "longitude": "31.09524000"
+    },
+    {
+      "id": 106,
+      "branch_code": "106",
+      "name": "أكاديا مول - محافظة بني سويف",
+      "city_id": 92,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.03743000",
+      "longitude": "31.11311000"
+    },
+    {
+      "id": 107,
+      "branch_code": "107",
+      "name": "جامعه بني سويف كليه الاداب",
+      "city_id": 92,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.04300649",
+      "longitude": "31.10881633"
+    },
+    {
+      "id": 108,
+      "branch_code": "108",
+      "name": "جامعة بني سويف كلية حاسبات",
+      "city_id": 92,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.08146031",
+      "longitude": "31.10130560"
+    },
+    {
+      "id": 109,
+      "branch_code": "109",
+      "name": "إهناسيا",
+      "city_id": 93,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.08903330",
+      "longitude": "30.94373200"
+    },
+    {
+      "id": 110,
+      "branch_code": "110",
+      "name": "الواسطى",
+      "city_id": 94,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.33971320",
+      "longitude": "31.20686380"
+    },
+    {
+      "id": 111,
+      "branch_code": "111",
+      "name": "الفشن",
+      "city_id": 95,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "28.81992890",
+      "longitude": "30.89792266"
+    },
+    {
+      "id": 112,
+      "branch_code": "112",
+      "name": "مركز ناصر",
+      "city_id": 96,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.14454580",
+      "longitude": "31.13569650"
+    },
+    {
+      "id": 113,
+      "branch_code": "113",
+      "name": "ببا",
+      "city_id": 97,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "28.92304617",
+      "longitude": "30.97787636"
+    },
+    {
+      "id": 114,
+      "branch_code": "114",
+      "name": "سمسطة",
+      "city_id": 98,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "28.92342112",
+      "longitude": "30.85169439"
+    },
+    {
+      "id": 115,
+      "branch_code": "115",
+      "name": "محطه قطار بنى سويف",
+      "city_id": 92,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.07604399",
+      "longitude": "31.09477381"
+    },
+    {
+      "id": 116,
+      "branch_code": "116",
+      "name": "المنصورة طريق السويس",
+      "city_id": 99,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.05412810",
+      "longitude": "31.40991000"
+    },
+    {
+      "id": 117,
+      "branch_code": "117",
+      "name": "شربين",
+      "city_id": 100,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.19362970",
+      "longitude": "31.52281150"
+    },
+    {
+      "id": 118,
+      "branch_code": "118",
+      "name": "ديكرنس",
+      "city_id": 101,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.08977490",
+      "longitude": "31.59929300"
+    },
+    {
+      "id": 119,
+      "branch_code": "119",
+      "name": "طلخا",
+      "city_id": 102,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.05285380",
+      "longitude": "31.38020080"
+    },
+    {
+      "id": 120,
+      "branch_code": "120",
+      "name": "الستاموني",
+      "city_id": 103,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.34756530",
+      "longitude": "31.36608604"
+    },
+    {
+      "id": 121,
+      "branch_code": "121",
+      "name": "المنصوره مشايه",
+      "city_id": 99,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.04499710",
+      "longitude": "31.36665980"
+    },
+    {
+      "id": 122,
+      "branch_code": "122",
+      "name": "أجا",
+      "city_id": 104,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.94370947",
+      "longitude": "31.28842688"
+    },
+    {
+      "id": 123,
+      "branch_code": "123",
+      "name": "ميت غمر",
+      "city_id": 105,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.71536951",
+      "longitude": "31.25839077"
+    },
+    {
+      "id": 124,
+      "branch_code": "124",
+      "name": "بلقاس",
+      "city_id": 106,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.21076842",
+      "longitude": "31.35903597"
+    },
+    {
+      "id": 125,
+      "branch_code": "125",
+      "name": "المنزلة",
+      "city_id": 107,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.16207010",
+      "longitude": "31.93601911"
+    },
+    {
+      "id": 126,
+      "branch_code": "126",
+      "name": "ميت سلسيل",
+      "city_id": 108,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.16691811",
+      "longitude": "31.80175066"
+    },
+    {
+      "id": 127,
+      "branch_code": "127",
+      "name": "شارع عبدالسلام عارف المنصورة",
+      "city_id": 99,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.03162000",
+      "longitude": "31.37789000"
+    },
+    {
+      "id": 128,
+      "branch_code": "128",
+      "name": "جامعه المنصورة كليه العلوم",
+      "city_id": 99,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.04253116",
+      "longitude": "31.35478657"
+    },
+    {
+      "id": 129,
+      "branch_code": "129",
+      "name": "جامعه المنصورة كليه التربيه",
+      "city_id": 99,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.04186490",
+      "longitude": "31.36197220"
+    },
+    {
+      "id": 130,
+      "branch_code": "130",
+      "name": "السنبلاوين",
+      "city_id": 109,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.88623530",
+      "longitude": "31.45873760"
+    },
+    {
+      "id": 131,
+      "branch_code": "131",
+      "name": "جامعة المنصورة كلية الحقوق",
+      "city_id": 99,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.04488205",
+      "longitude": "31.35586563"
+    },
+    {
+      "id": 132,
+      "branch_code": "132",
+      "name": "منية النصر",
+      "city_id": 110,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.12236020",
+      "longitude": "31.64533110"
+    },
+    {
+      "id": 133,
+      "branch_code": "133",
+      "name": "محطة قطار المنصوره",
+      "city_id": 99,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.04499710",
+      "longitude": "31.36665980"
+    },
+    {
+      "id": 134,
+      "branch_code": "134",
+      "name": "نبروه",
+      "city_id": 111,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.09438700",
+      "longitude": "31.29873100"
+    },
+    {
+      "id": 135,
+      "branch_code": "135",
+      "name": "دمياط الجديدة",
+      "city_id": 113,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.44320253",
+      "longitude": "31.68327663"
+    },
+    {
+      "id": 136,
+      "branch_code": "136",
+      "name": "دمياط",
+      "city_id": 112,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.42738196",
+      "longitude": "31.81080696"
+    },
+    {
+      "id": 137,
+      "branch_code": "137",
+      "name": "شارع الجلاء دمياط",
+      "city_id": 112,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.41760050",
+      "longitude": "31.81438660"
+    },
+    {
+      "id": 138,
+      "branch_code": "138",
+      "name": "كفر سعد",
+      "city_id": 114,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.35430620",
+      "longitude": "31.68554810"
+    },
+    {
+      "id": 139,
+      "branch_code": "139",
+      "name": "الزرقا",
+      "city_id": 115,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.21051854",
+      "longitude": "31.63776344"
+    },
+    {
+      "id": 140,
+      "branch_code": "140",
+      "name": "فارسكور",
+      "city_id": 116,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.32851700",
+      "longitude": "31.71735600"
+    },
+    {
+      "id": 141,
+      "branch_code": "141",
+      "name": "كوم حمادة",
+      "city_id": 118,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.76418290",
+      "longitude": "30.70253000"
+    },
+    {
+      "id": 142,
+      "branch_code": "142",
+      "name": "إيتاي البارود",
+      "city_id": 119,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.88848450",
+      "longitude": "30.66457850"
+    },
+    {
+      "id": 143,
+      "branch_code": "143",
+      "name": "شبراخيت",
+      "city_id": 120,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.02842660",
+      "longitude": "30.71290680"
+    },
+    {
+      "id": 144,
+      "branch_code": "144",
+      "name": "الروضة دمنهور",
+      "city_id": 121,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.03461000",
+      "longitude": "30.46812000"
+    },
+    {
+      "id": 145,
+      "branch_code": "145",
+      "name": "رشيد",
+      "city_id": 122,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.40724603",
+      "longitude": "30.42359924"
+    },
+    {
+      "id": 146,
+      "branch_code": "146",
+      "name": "دمنهور",
+      "city_id": 121,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.03981710",
+      "longitude": "30.46805575"
+    },
+    {
+      "id": 147,
+      "branch_code": "147",
+      "name": "غرب إيتاي البارود",
+      "city_id": 119,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.88825681",
+      "longitude": "30.66482515"
+    },
+    {
+      "id": 148,
+      "branch_code": "148",
+      "name": "الجمهورية كفر الدوار",
+      "city_id": 123,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.12984000",
+      "longitude": "30.13178000"
+    },
+    {
+      "id": 149,
+      "branch_code": "149",
+      "name": "الرحمانية",
+      "city_id": 124,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.10642550",
+      "longitude": "30.63973000"
+    },
+    {
+      "id": 150,
+      "branch_code": "150",
+      "name": "كفر الدوار",
+      "city_id": 123,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.13695044",
+      "longitude": "30.13183187"
+    },
+    {
+      "id": 151,
+      "branch_code": "151",
+      "name": "جامعه دمنهور كليه الهندسه",
+      "city_id": 121,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.03819787",
+      "longitude": "30.43286110"
+    },
+    {
+      "id": 152,
+      "branch_code": "152",
+      "name": "جامعه دمنهور كليه العلوم",
+      "city_id": 121,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.05267968",
+      "longitude": "30.46303853"
+    },
+    {
+      "id": 153,
+      "branch_code": "153",
+      "name": "جامعة دمنهور مجمع النوباريه",
+      "city_id": 132,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.66968212",
+      "longitude": "30.07056042"
+    },
+    {
+      "id": 154,
+      "branch_code": "154",
+      "name": "الدلنجات",
+      "city_id": 125,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.82981655",
+      "longitude": "30.53039815"
+    },
+    {
+      "id": 155,
+      "branch_code": "155",
+      "name": "أبو حمص",
+      "city_id": 126,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.10021970",
+      "longitude": "30.31550860"
+    },
+    {
+      "id": 156,
+      "branch_code": "156",
+      "name": "ادكو",
+      "city_id": 127,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.30055700",
+      "longitude": "30.30551870"
+    },
+    {
+      "id": 157,
+      "branch_code": "157",
+      "name": "أبو المطامير",
+      "city_id": 128,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.91109857",
+      "longitude": "30.17493945"
+    },
+    {
+      "id": 158,
+      "branch_code": "158",
+      "name": "المحمودية",
+      "city_id": 129,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.18278650",
+      "longitude": "30.52230490"
+    },
+    {
+      "id": 159,
+      "branch_code": "159",
+      "name": "مركز بدر",
+      "city_id": 130,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.57543102",
+      "longitude": "30.70912348"
+    },
+    {
+      "id": 160,
+      "branch_code": "160",
+      "name": "وادي النطرون",
+      "city_id": 131,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.37629874",
+      "longitude": "30.34814436"
+    },
+    {
+      "id": 161,
+      "branch_code": "161",
+      "name": "النوبارية",
+      "city_id": 132,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.67636770",
+      "longitude": "30.07806660"
+    },
+    {
+      "id": 162,
+      "branch_code": "162",
+      "name": "حوش عيسى",
+      "city_id": 133,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.91945000",
+      "longitude": "30.30391000"
+    },
+    {
+      "id": 163,
+      "branch_code": "163",
+      "name": "محطة قطار دمنهور",
+      "city_id": 121,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.03981710",
+      "longitude": "30.46805575"
+    },
+    {
+      "id": 164,
+      "branch_code": "164",
+      "name": "أطسا",
+      "city_id": 135,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.24078960",
+      "longitude": "30.79513750"
+    },
+    {
+      "id": 165,
+      "branch_code": "165",
+      "name": "السد العالي",
+      "city_id": 134,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.84041753",
+      "longitude": "29.31203670"
+    },
+    {
+      "id": 166,
+      "branch_code": "166",
+      "name": "الفيوم",
+      "city_id": 134,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.31511089",
+      "longitude": "30.85280563"
+    },
+    {
+      "id": 167,
+      "branch_code": "167",
+      "name": "دمـــــــــــــــــو - محافظة الفيوم",
+      "city_id": 134,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.30068000",
+      "longitude": "30.91058000"
+    },
+    {
+      "id": 168,
+      "branch_code": "168",
+      "name": "طامية",
+      "city_id": 137,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.47547948",
+      "longitude": "30.95734835"
+    },
+    {
+      "id": 169,
+      "branch_code": "169",
+      "name": "ابشواي",
+      "city_id": 138,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.36328661",
+      "longitude": "30.68476867"
+    },
+    {
+      "id": 170,
+      "branch_code": "170",
+      "name": "سنورس",
+      "city_id": 139,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.41085000",
+      "longitude": "30.86667000"
+    },
+    {
+      "id": 171,
+      "branch_code": "171",
+      "name": "كفر الزيات",
+      "city_id": 140,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.82513740",
+      "longitude": "30.81819000"
+    },
+    {
+      "id": 172,
+      "branch_code": "172",
+      "name": "بسيون",
+      "city_id": 141,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.94024970",
+      "longitude": "30.80678000"
+    },
+    {
+      "id": 173,
+      "branch_code": "173",
+      "name": "السنطة",
+      "city_id": 142,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.72908260",
+      "longitude": "31.12061730"
+    },
+    {
+      "id": 174,
+      "branch_code": "174",
+      "name": "شارع الجلاء طنطا",
+      "city_id": 143,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.77644000",
+      "longitude": "31.01497000"
+    },
+    {
+      "id": 175,
+      "branch_code": "175",
+      "name": "نادي ميتركس",
+      "city_id": 143,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.84178554",
+      "longitude": "31.01803247"
+    },
+    {
+      "id": 176,
+      "branch_code": "176",
+      "name": "طنطا",
+      "city_id": 143,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.79123650",
+      "longitude": "30.99909200"
+    },
+    {
+      "id": 177,
+      "branch_code": "177",
+      "name": "ميدان المشحمة المحلة الكبرى",
+      "city_id": 144,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.97975020",
+      "longitude": "31.17577657"
+    },
+    {
+      "id": 178,
+      "branch_code": "178",
+      "name": "المحلة الكبرى",
+      "city_id": 144,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.97488398",
+      "longitude": "31.16719633"
+    },
+    {
+      "id": 179,
+      "branch_code": "179",
+      "name": "سبرباي",
+      "city_id": 145,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "27.72991000",
+      "longitude": "30.83354000"
+    },
+    {
+      "id": 180,
+      "branch_code": "180",
+      "name": "طنطا الاستاد",
+      "city_id": 143,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.81475810",
+      "longitude": "30.99297990"
+    },
+    {
+      "id": 181,
+      "branch_code": "181",
+      "name": "قطور البلد",
+      "city_id": 146,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.97267716",
+      "longitude": "30.95648660"
+    },
+    {
+      "id": 182,
+      "branch_code": "182",
+      "name": "سمنود",
+      "city_id": 147,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.96585200",
+      "longitude": "31.24118200"
+    },
+    {
+      "id": 183,
+      "branch_code": "183",
+      "name": "محطة قطار طنطا",
+      "city_id": 143,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.79123650",
+      "longitude": "30.99909200"
+    },
+    {
+      "id": 184,
+      "branch_code": "184",
+      "name": "زفتي",
+      "city_id": 148,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.71474000",
+      "longitude": "31.24730000"
+    },
+    {
+      "id": 185,
+      "branch_code": "185",
+      "name": "العياط",
+      "city_id": 32,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.62054760",
+      "longitude": "31.25736000"
+    },
+    {
+      "id": 186,
+      "branch_code": "186",
+      "name": "المنيب",
+      "city_id": 34,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.97574140",
+      "longitude": "31.20932560"
+    },
+    {
+      "id": 187,
+      "branch_code": "187",
+      "name": "ترسا",
+      "city_id": 33,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.98849350",
+      "longitude": "31.15801090"
+    },
+    {
+      "id": 188,
+      "branch_code": "188",
+      "name": "الطالبية",
+      "city_id": 37,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.00751600",
+      "longitude": "31.17645030"
+    },
+    {
+      "id": 189,
+      "branch_code": "189",
+      "name": "هايبر وان زايد",
+      "city_id": 38,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.03064040",
+      "longitude": "31.02176420"
+    },
+    {
+      "id": 190,
+      "branch_code": "190",
+      "name": "الملكة",
+      "city_id": 37,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.01922060",
+      "longitude": "31.18949620"
+    },
+    {
+      "id": 191,
+      "branch_code": "191",
+      "name": "محكمة السودان",
+      "city_id": 39,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.06936850",
+      "longitude": "31.20608480"
+    },
+    {
+      "id": 192,
+      "branch_code": "192",
+      "name": "المناشى",
+      "city_id": 41,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.18140595",
+      "longitude": "31.11414764"
+    },
+    {
+      "id": 193,
+      "branch_code": "193",
+      "name": "بين السرايات",
+      "city_id": 40,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.02869000",
+      "longitude": "31.20438000"
+    },
+    {
+      "id": 194,
+      "branch_code": "194",
+      "name": "هرم تعاون",
+      "city_id": 35,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.99559475",
+      "longitude": "31.16377115"
+    },
+    {
+      "id": 195,
+      "branch_code": "195",
+      "name": "فيصل تعاون",
+      "city_id": 36,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.00047285",
+      "longitude": "31.16471529"
+    },
+    {
+      "id": 196,
+      "branch_code": "196",
+      "name": "الدقي",
+      "city_id": 40,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.03969339",
+      "longitude": "31.20607495"
+    },
+    {
+      "id": 197,
+      "branch_code": "197",
+      "name": "ادي الملوك أكتوبر",
+      "city_id": 42,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.94223319",
+      "longitude": "30.91883672"
+    },
+    {
+      "id": 198,
+      "branch_code": "198",
+      "name": "فيصل مشعل",
+      "city_id": 36,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.99095826",
+      "longitude": "31.13609992"
+    },
+    {
+      "id": 199,
+      "branch_code": "199",
+      "name": "اكتوبر",
+      "city_id": 42,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.99322529",
+      "longitude": "30.96457958"
+    },
+    {
+      "id": 200,
+      "branch_code": "200",
+      "name": "مول الفتح - حدائق أكتوبر",
+      "city_id": 43,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.91955000",
+      "longitude": "31.02603000"
+    },
+    {
+      "id": 201,
+      "branch_code": "201",
+      "name": "شارع زغلول الهرم",
+      "city_id": 35,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.99970000",
+      "longitude": "31.14020000"
+    },
+    {
+      "id": 202,
+      "branch_code": "202",
+      "name": "اللبيني فيصل",
+      "city_id": 36,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.97660000",
+      "longitude": "31.14900000"
+    },
+    {
+      "id": 203,
+      "branch_code": "203",
+      "name": "حدائق الأهرام",
+      "city_id": 33,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.97986517",
+      "longitude": "31.09838165"
+    },
+    {
+      "id": 204,
+      "branch_code": "204",
+      "name": "كعابيش فيصل",
+      "city_id": 36,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.00100000",
+      "longitude": "31.15134000"
+    },
+    {
+      "id": 205,
+      "branch_code": "205",
+      "name": "فيصل العشرين",
+      "city_id": 37,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.01110164",
+      "longitude": "31.18544742"
+    },
+    {
+      "id": 206,
+      "branch_code": "206",
+      "name": "وردان - منشأة القناطر",
+      "city_id": 41,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.31716329",
+      "longitude": "30.90937933"
+    },
+    {
+      "id": 207,
+      "branch_code": "207",
+      "name": "جيزة المحطة",
+      "city_id": 33,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.00949091",
+      "longitude": "31.21459968"
+    },
+    {
+      "id": 208,
+      "branch_code": "208",
+      "name": "شارع العروبة - الهرم",
+      "city_id": 35,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.98775321",
+      "longitude": "31.17575078"
+    },
+    {
+      "id": 209,
+      "branch_code": "209",
+      "name": "زنين",
+      "city_id": 37,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.03537870",
+      "longitude": "31.19427000"
+    },
+    {
+      "id": 210,
+      "branch_code": "210",
+      "name": "ترعة السواحل",
+      "city_id": 45,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.09855000",
+      "longitude": "31.21790000"
+    },
+    {
+      "id": 211,
+      "branch_code": "211",
+      "name": "ميدان لبنان",
+      "city_id": 39,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.05951141",
+      "longitude": "31.19306087"
+    },
+    {
+      "id": 212,
+      "branch_code": "212",
+      "name": "امبابة وحدة",
+      "city_id": 44,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.07447040",
+      "longitude": "31.21152000"
+    },
+    {
+      "id": 213,
+      "branch_code": "213",
+      "name": "منيل شيحة",
+      "city_id": 46,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.94896000",
+      "longitude": "31.24326000"
+    },
+    {
+      "id": 214,
+      "branch_code": "214",
+      "name": "الوراق",
+      "city_id": 45,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.09506526",
+      "longitude": "31.22370243"
+    },
+    {
+      "id": 215,
+      "branch_code": "215",
+      "name": "الحصري",
+      "city_id": 33,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.97128892",
+      "longitude": "30.94369054"
+    },
+    {
+      "id": 216,
+      "branch_code": "216",
+      "name": "صفط اللبن",
+      "city_id": 37,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.02951000",
+      "longitude": "31.17540000"
+    },
+    {
+      "id": 217,
+      "branch_code": "217",
+      "name": "الحوامدية",
+      "city_id": 47,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "29.89542017",
+      "longitude": "31.26284659"
+    },
+    {
+      "id": 218,
+      "branch_code": "218",
+      "name": "ليلة القدر",
+      "city_id": 42,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.95104889",
+      "longitude": "30.90475559"
+    },
+    {
+      "id": 219,
+      "branch_code": "219",
+      "name": "شارع ناهيا - بولاق الدكرور",
+      "city_id": 37,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.04477680",
+      "longitude": "31.18113740"
+    },
+    {
+      "id": 220,
+      "branch_code": "220",
+      "name": "جامعه القاهرة كليه الحقوق",
+      "city_id": 33,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.02689613",
+      "longitude": "31.20990183"
+    },
+    {
+      "id": 221,
+      "branch_code": "221",
+      "name": "جامعه القاهرة كليه الاداب",
+      "city_id": 33,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.02887257",
+      "longitude": "31.20903845"
+    },
+    {
+      "id": 222,
+      "branch_code": "222",
+      "name": "جامعة القاهرة كلية الاعلام",
+      "city_id": 33,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.02635098",
+      "longitude": "31.20216343"
+    },
+    {
+      "id": 223,
+      "branch_code": "223",
+      "name": "جامعة القاهرة كلية التجارة",
+      "city_id": 33,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.02765196",
+      "longitude": "31.20580140"
+    },
+    {
+      "id": 224,
+      "branch_code": "224",
+      "name": "هرم اللبيني",
+      "city_id": 35,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.97803115",
+      "longitude": "31.16099619"
+    },
+    {
+      "id": 225,
+      "branch_code": "225",
+      "name": "البدرشين",
+      "city_id": 48,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.04340000",
+      "longitude": "31.23520000"
+    },
+    {
+      "id": 226,
+      "branch_code": "226",
+      "name": "النادى الاهلى الجزيرة",
+      "city_id": 55,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.04562136",
+      "longitude": "31.22357740"
+    },
+    {
+      "id": 227,
+      "branch_code": "227",
+      "name": "الصف",
+      "city_id": 49,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.56950560",
+      "longitude": "31.29507910"
+    },
+    {
+      "id": 228,
+      "branch_code": "228",
+      "name": "النادى الاهلى الشيخ زايد",
+      "city_id": 38,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.08197740",
+      "longitude": "30.97587817"
+    },
+    {
+      "id": 229,
+      "branch_code": "229",
+      "name": "أوسيم",
+      "city_id": 50,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.12201573",
+      "longitude": "31.14083022"
+    },
+    {
+      "id": 230,
+      "branch_code": "230",
+      "name": "نادي الجزيره",
+      "city_id": 55,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.05442180",
+      "longitude": "31.22374180"
+    },
+    {
+      "id": 231,
+      "branch_code": "231",
+      "name": "جامعه النيل اكتوبر",
+      "city_id": 33,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.01237725",
+      "longitude": "30.98694564"
+    },
+    {
+      "id": 232,
+      "branch_code": "232",
+      "name": "نادي الصيد الدقي",
+      "city_id": 40,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.07746098",
+      "longitude": "31.28656362"
+    },
+    {
+      "id": 233,
+      "branch_code": "233",
+      "name": "جامعه القاهره مدينه الطلبه",
+      "city_id": 33,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.03022995",
+      "longitude": "31.20743347"
+    },
+    {
+      "id": 234,
+      "branch_code": "234",
+      "name": "أطفيح",
+      "city_id": 51,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.40812042",
+      "longitude": "31.24430086"
+    },
+    {
+      "id": 235,
+      "branch_code": "235",
+      "name": "جامعه اكتوبر",
+      "city_id": 42,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.97553014",
+      "longitude": "30.94759413"
+    },
+    {
+      "id": 236,
+      "branch_code": "236",
+      "name": "كرداسة",
+      "city_id": 52,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.03430650",
+      "longitude": "31.11749390"
+    },
+    {
+      "id": 237,
+      "branch_code": "237",
+      "name": "الجوهرة بشتيل",
+      "city_id": 53,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.08029860",
+      "longitude": "31.19490390"
+    },
+    {
+      "id": 238,
+      "branch_code": "238",
+      "name": "شبرامنت",
+      "city_id": 54,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.94042410",
+      "longitude": "31.19373340"
+    },
+    {
+      "id": 239,
+      "branch_code": "239",
+      "name": "محطة قطار جيزه",
+      "city_id": 33,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.00949091",
+      "longitude": "31.21459968"
+    },
+    {
+      "id": 240,
+      "branch_code": "240",
+      "name": "أرض اللواء",
+      "city_id": 39,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.05313200",
+      "longitude": "31.18486600"
+    },
+    {
+      "id": 241,
+      "branch_code": "241",
+      "name": "كومبرة",
+      "city_id": 52,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.07650200",
+      "longitude": "31.14318800"
+    },
+    {
+      "id": 242,
+      "branch_code": "242",
+      "name": "القومية العربية",
+      "city_id": 45,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.09594047",
+      "longitude": "31.20140039"
+    },
+    {
+      "id": 243,
+      "branch_code": "243",
+      "name": "روضة زايد الشيخ زايد",
+      "city_id": 38,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.04370000",
+      "longitude": "30.98825000"
+    },
+    {
+      "id": 244,
+      "branch_code": "244",
+      "name": "التل الكبير",
+      "city_id": 150,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.55831000",
+      "longitude": "31.78525000"
+    },
+    {
+      "id": 245,
+      "branch_code": "245",
+      "name": "فايد",
+      "city_id": 151,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.33137647",
+      "longitude": "32.30313896"
+    },
+    {
+      "id": 246,
+      "branch_code": "246",
+      "name": "السلطان حسين",
+      "city_id": 152,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.59378000",
+      "longitude": "32.27542000"
+    },
+    {
+      "id": 247,
+      "branch_code": "247",
+      "name": "الاسماعليه",
+      "city_id": 149,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.60764890",
+      "longitude": "32.27228164"
+    },
+    {
+      "id": 248,
+      "branch_code": "248",
+      "name": "القنطرة",
+      "city_id": 153,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.84870209",
+      "longitude": "32.30477204"
+    },
+    {
+      "id": 249,
+      "branch_code": "249",
+      "name": "القصاصين",
+      "city_id": 155,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.56788146",
+      "longitude": "31.93584760"
+    },
+    {
+      "id": 250,
+      "branch_code": "250",
+      "name": "ابو صوير الإسماعيلية",
+      "city_id": 154,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.56111000",
+      "longitude": "32.11939000"
+    },
+    {
+      "id": 251,
+      "branch_code": "251",
+      "name": "كفر الشيخ",
+      "city_id": 156,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.11391680",
+      "longitude": "30.95320110"
+    },
+    {
+      "id": 252,
+      "branch_code": "252",
+      "name": "الرياض",
+      "city_id": 157,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.24203176",
+      "longitude": "30.94828512"
+    },
+    {
+      "id": 253,
+      "branch_code": "253",
+      "name": "صلاح سالم كفر الشيخ",
+      "city_id": 156,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.45628000",
+      "longitude": "31.17928000"
+    },
+    {
+      "id": 254,
+      "branch_code": "254",
+      "name": "دسوق",
+      "city_id": 158,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.13824012",
+      "longitude": "30.65574787"
+    },
+    {
+      "id": 255,
+      "branch_code": "255",
+      "name": "شارع الثورة دسوق",
+      "city_id": 158,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.12789000",
+      "longitude": "30.64441000"
+    },
+    {
+      "id": 256,
+      "branch_code": "256",
+      "name": "قلين",
+      "city_id": 159,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.05003520",
+      "longitude": "30.83645339"
+    },
+    {
+      "id": 257,
+      "branch_code": "257",
+      "name": "الحامول",
+      "city_id": 160,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.30773078",
+      "longitude": "31.14118800"
+    },
+    {
+      "id": 258,
+      "branch_code": "258",
+      "name": "سيدي سالم",
+      "city_id": 161,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.27149400",
+      "longitude": "30.78835970"
+    },
+    {
+      "id": 259,
+      "branch_code": "259",
+      "name": "فوة",
+      "city_id": 162,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.20162477",
+      "longitude": "30.54772203"
+    },
+    {
+      "id": 260,
+      "branch_code": "260",
+      "name": "مطوبس",
+      "city_id": 163,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.29458491",
+      "longitude": "30.52051581"
+    },
+    {
+      "id": 261,
+      "branch_code": "261",
+      "name": "بلطيم",
+      "city_id": 164,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.55248490",
+      "longitude": "31.08662000"
+    },
+    {
+      "id": 262,
+      "branch_code": "262",
+      "name": "بيَلا",
+      "city_id": 165,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.16933000",
+      "longitude": "31.22692000"
+    },
+    {
+      "id": 263,
+      "branch_code": "263",
+      "name": "سيدي غازي",
+      "city_id": 156,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.20792000",
+      "longitude": "31.05620000"
+    },
+    {
+      "id": 264,
+      "branch_code": "264",
+      "name": "ميدان محطة الأقصر",
+      "city_id": 166,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "25.69515448",
+      "longitude": "32.63970000"
+    },
+    {
+      "id": 265,
+      "branch_code": "265",
+      "name": "أرمنت - الأقصر",
+      "city_id": 167,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "25.89850000",
+      "longitude": "32.72214000"
+    },
+    {
+      "id": 266,
+      "branch_code": "266",
+      "name": "الأقصر",
+      "city_id": 166,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "25.68355840",
+      "longitude": "32.63365120"
+    },
+    {
+      "id": 267,
+      "branch_code": "267",
+      "name": "إسنا",
+      "city_id": 168,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "25.30016562",
+      "longitude": "32.55516587"
+    },
+    {
+      "id": 268,
+      "branch_code": "268",
+      "name": "العلمين",
+      "city_id": 170,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.83000000",
+      "longitude": "28.95679000"
+    },
+    {
+      "id": 269,
+      "branch_code": "269",
+      "name": "مرسى مطروح",
+      "city_id": 169,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.35897600",
+      "longitude": "27.24331520"
+    },
+    {
+      "id": 270,
+      "branch_code": "270",
+      "name": "بركة السبع",
+      "city_id": 239,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.63602110",
+      "longitude": "31.08846630"
+    },
+    {
+      "id": 271,
+      "branch_code": "271",
+      "name": "سرس الليان",
+      "city_id": 240,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.43908520",
+      "longitude": "30.96717590"
+    },
+    {
+      "id": 272,
+      "branch_code": "272",
+      "name": "شبين الكوم",
+      "city_id": 241,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.56534456",
+      "longitude": "31.01268706"
+    },
+    {
+      "id": 273,
+      "branch_code": "273",
+      "name": "عمر أفندي شبين الكوم",
+      "city_id": 241,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.55562000",
+      "longitude": "31.01111000"
+    },
+    {
+      "id": 274,
+      "branch_code": "274",
+      "name": "أشمون",
+      "city_id": 242,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.29657323",
+      "longitude": "30.97617745"
+    },
+    {
+      "id": 275,
+      "branch_code": "275",
+      "name": "مدينة السادات",
+      "city_id": 243,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.37194724",
+      "longitude": "30.50097719"
+    },
+    {
+      "id": 276,
+      "branch_code": "276",
+      "name": "منوف",
+      "city_id": 244,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.46738441",
+      "longitude": "30.92915744"
+    },
+    {
+      "id": 277,
+      "branch_code": "277",
+      "name": "جامعة السادات",
+      "city_id": 243,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.40701094",
+      "longitude": "30.53259102"
+    },
+    {
+      "id": 278,
+      "branch_code": "278",
+      "name": "الباجور",
+      "city_id": 245,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.42543564",
+      "longitude": "31.03757808"
+    },
+    {
+      "id": 279,
+      "branch_code": "279",
+      "name": "قويسنا",
+      "city_id": 246,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.54755140",
+      "longitude": "31.13666030"
+    },
+    {
+      "id": 280,
+      "branch_code": "280",
+      "name": "تــــــــــــــلا",
+      "city_id": 247,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.67859196",
+      "longitude": "30.94473760"
+    },
+    {
+      "id": 281,
+      "branch_code": "281",
+      "name": "الشهداء",
+      "city_id": 248,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.59570100",
+      "longitude": "30.90097500"
+    },
+    {
+      "id": 282,
+      "branch_code": "282",
+      "name": "سنتريس",
+      "city_id": 249,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.31003200",
+      "longitude": "31.06036400"
+    },
+    {
+      "id": 283,
+      "branch_code": "283",
+      "name": "دير مواس",
+      "city_id": 173,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "27.64198000",
+      "longitude": "30.84187000"
+    },
+    {
+      "id": 284,
+      "branch_code": "284",
+      "name": "العدوة",
+      "city_id": 174,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "28.69583000",
+      "longitude": "30.77306000"
+    },
+    {
+      "id": 285,
+      "branch_code": "285",
+      "name": "المنيا",
+      "city_id": 172,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "28.11468150",
+      "longitude": "30.74647850"
+    },
+    {
+      "id": 286,
+      "branch_code": "286",
+      "name": "شارع شلبي - المنيا",
+      "city_id": 172,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "28.11762000",
+      "longitude": "30.74141000"
+    },
+    {
+      "id": 287,
+      "branch_code": "287",
+      "name": "بني مزار",
+      "city_id": 175,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "28.49368648",
+      "longitude": "30.80497473"
+    },
+    {
+      "id": 288,
+      "branch_code": "288",
+      "name": "شارع 26 يوليو ملوي",
+      "city_id": 176,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "27.72991000",
+      "longitude": "30.83354000"
+    },
+    {
+      "id": 289,
+      "branch_code": "289",
+      "name": "سمالوط",
+      "city_id": 177,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "28.31918189",
+      "longitude": "30.70838006"
+    },
+    {
+      "id": 290,
+      "branch_code": "290",
+      "name": "أبو هلال",
+      "city_id": 172,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "28.08490089",
+      "longitude": "30.76392400"
+    },
+    {
+      "id": 291,
+      "branch_code": "291",
+      "name": "جامعه المنيا كليه الزراعه",
+      "city_id": 172,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "28.12836941",
+      "longitude": "30.73228291"
+    },
+    {
+      "id": 292,
+      "branch_code": "292",
+      "name": "جامعه المنيا كليه الطب",
+      "city_id": 172,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "28.12467635",
+      "longitude": "30.73617112"
+    },
+    {
+      "id": 293,
+      "branch_code": "293",
+      "name": "مغاغة",
+      "city_id": 178,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "28.08709670",
+      "longitude": "30.76183970"
+    },
+    {
+      "id": 294,
+      "branch_code": "294",
+      "name": "جامعه المنيا الاهليه",
+      "city_id": 172,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "28.07641596",
+      "longitude": "30.83597969"
+    },
+    {
+      "id": 295,
+      "branch_code": "295",
+      "name": "مطاي",
+      "city_id": 179,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "28.41608420",
+      "longitude": "30.78616486"
+    },
+    {
+      "id": 296,
+      "branch_code": "296",
+      "name": "أبو قرقاص",
+      "city_id": 180,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "27.93102527",
+      "longitude": "30.82070723"
+    },
+    {
+      "id": 297,
+      "branch_code": "297",
+      "name": "جامعه المنيا كليه سياحه",
+      "city_id": 172,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "28.12486945",
+      "longitude": "30.73285476"
+    },
+    {
+      "id": 298,
+      "branch_code": "298",
+      "name": "جامعه المنيا كليه التربيه",
+      "city_id": 172,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "28.12149958",
+      "longitude": "30.73398732"
+    },
+    {
+      "id": 299,
+      "branch_code": "299",
+      "name": "ملوي",
+      "city_id": 176,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "27.73611000",
+      "longitude": "30.84676000"
+    },
+    {
+      "id": 300,
+      "branch_code": "300",
+      "name": "محطة قطار المنيا",
+      "city_id": 172,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "28.11468150",
+      "longitude": "30.74647850"
+    },
+    {
+      "id": 301,
+      "branch_code": "301",
+      "name": "حي الزهور",
+      "city_id": 182,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.26570000",
+      "longitude": "32.27373000"
+    },
+    {
+      "id": 302,
+      "branch_code": "302",
+      "name": "بورسعيد",
+      "city_id": 181,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "31.26702876",
+      "longitude": "32.31406331"
+    },
+    {
+      "id": 303,
+      "branch_code": "303",
+      "name": "جامعة بورسعيد كلية التجاره",
+      "city_id": 181,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.24559341",
+      "longitude": "32.31606250"
+    },
+    {
+      "id": 304,
+      "branch_code": "304",
+      "name": "جامعة بور سعيد كلية التربية",
+      "city_id": 181,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "31.27312182",
+      "longitude": "32.28748642"
+    },
+    {
+      "id": 305,
+      "branch_code": "305",
+      "name": "جامعة بورسعيد كلية العلوم",
+      "city_id": 181,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "31.25884349",
+      "longitude": "32.27598733"
+    },
+    {
+      "id": 306,
+      "branch_code": "306",
+      "name": "الخانكة",
+      "city_id": 185,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.21571230",
+      "longitude": "31.35453000"
+    },
+    {
+      "id": 307,
+      "branch_code": "307",
+      "name": "طوخ",
+      "city_id": 186,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.35390000",
+      "longitude": "31.20319000"
+    },
+    {
+      "id": 308,
+      "branch_code": "308",
+      "name": "بنها",
+      "city_id": 183,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.47007387",
+      "longitude": "31.17972493"
+    },
+    {
+      "id": 309,
+      "branch_code": "309",
+      "name": "شبرا الخيمة",
+      "city_id": 184,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.12851382",
+      "longitude": "31.27058243"
+    },
+    {
+      "id": 310,
+      "branch_code": "310",
+      "name": "كفر شكر",
+      "city_id": 187,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.54895000",
+      "longitude": "31.26550000"
+    },
+    {
+      "id": 311,
+      "branch_code": "311",
+      "name": "المحطة بنها - محافظة القليوبية",
+      "city_id": 183,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "31.11420000",
+      "longitude": "30.93794000"
+    },
+    {
+      "id": 312,
+      "branch_code": "312",
+      "name": "جامعه بنها الاهليه",
+      "city_id": 183,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.24827329",
+      "longitude": "31.45684403"
+    },
+    {
+      "id": 313,
+      "branch_code": "313",
+      "name": "جامعه بنها كليه التجاره",
+      "city_id": 183,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.47249516",
+      "longitude": "31.18811110"
+    },
+    {
+      "id": 314,
+      "branch_code": "314",
+      "name": "جامعه بنها كليه الحقوق",
+      "city_id": 183,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.47602298",
+      "longitude": "31.19577146"
+    },
+    {
+      "id": 315,
+      "branch_code": "315",
+      "name": "القناطر الخيرية",
+      "city_id": 189,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.18916383",
+      "longitude": "31.13868177"
+    },
+    {
+      "id": 316,
+      "branch_code": "316",
+      "name": "مدينة العبور",
+      "city_id": 188,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.25080061",
+      "longitude": "31.46769762"
+    },
+    {
+      "id": 317,
+      "branch_code": "317",
+      "name": "شبين القناطر",
+      "city_id": 190,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.31199288",
+      "longitude": "31.31800665"
+    },
+    {
+      "id": 318,
+      "branch_code": "318",
+      "name": "قليوب",
+      "city_id": 191,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.18125627",
+      "longitude": "31.20894361"
+    },
+    {
+      "id": 319,
+      "branch_code": "319",
+      "name": "الخصوص",
+      "city_id": 192,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.15726180",
+      "longitude": "31.31211900"
+    },
+    {
+      "id": 320,
+      "branch_code": "320",
+      "name": "الخصوص حوض السعادة",
+      "city_id": 192,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.16545058",
+      "longitude": "31.30586611"
+    },
+    {
+      "id": 321,
+      "branch_code": "321",
+      "name": "محطة قطار بنها",
+      "city_id": 183,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.47007387",
+      "longitude": "31.17972493"
+    },
+    {
+      "id": 322,
+      "branch_code": "322",
+      "name": "مسطرد الجديد",
+      "city_id": 194,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.14174458",
+      "longitude": "31.29267445"
+    },
+    {
+      "id": 323,
+      "branch_code": "323",
+      "name": "أبو تيشت",
+      "city_id": 196,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "26.12467780",
+      "longitude": "32.09853000"
+    },
+    {
+      "id": 324,
+      "branch_code": "324",
+      "name": "دشنا",
+      "city_id": 197,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "26.12043691",
+      "longitude": "32.46338000"
+    },
+    {
+      "id": 325,
+      "branch_code": "325",
+      "name": "نقاده - قنا",
+      "city_id": 198,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "25.60487000",
+      "longitude": "32.50771000"
+    },
+    {
+      "id": 326,
+      "branch_code": "326",
+      "name": "فرشوط",
+      "city_id": 199,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "26.05844000",
+      "longitude": "32.17461000"
+    },
+    {
+      "id": 327,
+      "branch_code": "327",
+      "name": "الصـــالحية - محافظة قنا",
+      "city_id": 200,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "26.15762000",
+      "longitude": "32.75564000"
+    },
+    {
+      "id": 328,
+      "branch_code": "328",
+      "name": "قفط - محافظة قنا",
+      "city_id": 201,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "25.99373000",
+      "longitude": "32.80440000"
+    },
+    {
+      "id": 329,
+      "branch_code": "329",
+      "name": "الشئون قنا",
+      "city_id": 195,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "26.17583000",
+      "longitude": "32.73258000"
+    },
+    {
+      "id": 330,
+      "branch_code": "330",
+      "name": "قنا",
+      "city_id": 195,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "26.15891825",
+      "longitude": "32.72264257"
+    },
+    {
+      "id": 331,
+      "branch_code": "331",
+      "name": "جامعه جنوب الوادي قنا",
+      "city_id": 195,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "26.19281612",
+      "longitude": "32.74298481"
+    },
+    {
+      "id": 332,
+      "branch_code": "332",
+      "name": "مستشفي جنوب الوادي الجامعي قنا",
+      "city_id": 195,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "26.19922749",
+      "longitude": "32.74007820"
+    },
+    {
+      "id": 333,
+      "branch_code": "333",
+      "name": "نجع حمادي",
+      "city_id": 202,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "26.04440739",
+      "longitude": "32.24068954"
+    },
+    {
+      "id": 334,
+      "branch_code": "334",
+      "name": "قوص",
+      "city_id": 203,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "25.91974420",
+      "longitude": "32.76711420"
+    },
+    {
+      "id": 335,
+      "branch_code": "335",
+      "name": "سفاجا",
+      "city_id": 206,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "26.75719502",
+      "longitude": "33.91603134"
+    },
+    {
+      "id": 336,
+      "branch_code": "336",
+      "name": "الدهار",
+      "city_id": 205,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "27.25338636",
+      "longitude": "33.81538629"
+    },
+    {
+      "id": 337,
+      "branch_code": "337",
+      "name": "الغردقة",
+      "city_id": 204,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "27.22259491",
+      "longitude": "33.83719057"
+    },
+    {
+      "id": 338,
+      "branch_code": "338",
+      "name": "جامعة الغردقة",
+      "city_id": 204,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "27.32101850",
+      "longitude": "33.67300193"
+    },
+    {
+      "id": 339,
+      "branch_code": "339",
+      "name": "أبو حماد",
+      "city_id": 208,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.53967467",
+      "longitude": "31.67832728"
+    },
+    {
+      "id": 340,
+      "branch_code": "340",
+      "name": "صان الحجر",
+      "city_id": 209,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.97342420",
+      "longitude": "31.87267810"
+    },
+    {
+      "id": 341,
+      "branch_code": "341",
+      "name": "العزيزية منيا القمح",
+      "city_id": 210,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.49082000",
+      "longitude": "31.28968000"
+    },
+    {
+      "id": 342,
+      "branch_code": "342",
+      "name": "الإبراهيمية",
+      "city_id": 211,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.72063900",
+      "longitude": "31.56463900"
+    },
+    {
+      "id": 343,
+      "branch_code": "343",
+      "name": "أنشاص",
+      "city_id": 212,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.37683000",
+      "longitude": "31.45433000"
+    },
+    {
+      "id": 344,
+      "branch_code": "344",
+      "name": "الزقازيق شارع القومية",
+      "city_id": 207,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.58852465",
+      "longitude": "31.49948107"
+    },
+    {
+      "id": 345,
+      "branch_code": "345",
+      "name": "الشرقية أبراش",
+      "city_id": 213,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.40783600",
+      "longitude": "31.36631500"
+    },
+    {
+      "id": 346,
+      "branch_code": "346",
+      "name": "السعديين منيا القمح",
+      "city_id": 210,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.45323721",
+      "longitude": "31.36533847"
+    },
+    {
+      "id": 347,
+      "branch_code": "347",
+      "name": "العاشر من رمضان",
+      "city_id": 215,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.29023210",
+      "longitude": "31.74633810"
+    },
+    {
+      "id": 348,
+      "branch_code": "348",
+      "name": "بلبيس",
+      "city_id": 216,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "29.98087535",
+      "longitude": "31.25389338"
+    },
+    {
+      "id": 349,
+      "branch_code": "349",
+      "name": "فاقوس",
+      "city_id": 217,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.72527703",
+      "longitude": "31.79233376"
+    },
+    {
+      "id": 350,
+      "branch_code": "350",
+      "name": "الحسينية",
+      "city_id": 218,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.86167672",
+      "longitude": "31.91526907"
+    },
+    {
+      "id": 351,
+      "branch_code": "351",
+      "name": "ديرب نجم",
+      "city_id": 219,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.74898500",
+      "longitude": "31.45569303"
+    },
+    {
+      "id": 352,
+      "branch_code": "352",
+      "name": "جامعه الزقازيق الاهليه بالعاشر من رمضان",
+      "city_id": 207,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.24176606",
+      "longitude": "31.70290518"
+    },
+    {
+      "id": 353,
+      "branch_code": "353",
+      "name": "جامعه الزقازيق كليه التجارة",
+      "city_id": 207,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.58840778",
+      "longitude": "31.48051790"
+    },
+    {
+      "id": 354,
+      "branch_code": "354",
+      "name": "جامعه الزقازيق كلية الهندسة",
+      "city_id": 207,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.58652532",
+      "longitude": "31.48246956"
+    },
+    {
+      "id": 355,
+      "branch_code": "355",
+      "name": "الزقازيق الجلاء",
+      "city_id": 207,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.58584304",
+      "longitude": "31.50365409"
+    },
+    {
+      "id": 356,
+      "branch_code": "356",
+      "name": "منيا القمح",
+      "city_id": 210,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.51168801",
+      "longitude": "31.34496380"
+    },
+    {
+      "id": 357,
+      "branch_code": "357",
+      "name": "مشتول السوق",
+      "city_id": 220,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.36222400",
+      "longitude": "31.38462355"
+    },
+    {
+      "id": 358,
+      "branch_code": "358",
+      "name": "محطة قطار الزقازيق",
+      "city_id": 207,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.58852465",
+      "longitude": "31.49948107"
+    },
+    {
+      "id": 359,
+      "branch_code": "359",
+      "name": "القرين",
+      "city_id": 221,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.61564000",
+      "longitude": "31.73720000"
+    },
+    {
+      "id": 360,
+      "branch_code": "360",
+      "name": "أبوكبير",
+      "city_id": 222,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "30.72545000",
+      "longitude": "31.66704000"
+    },
+    {
+      "id": 361,
+      "branch_code": "361",
+      "name": "أولاد صقر",
+      "city_id": 223,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "30.93090400",
+      "longitude": "31.69766100"
+    },
+    {
+      "id": 362,
+      "branch_code": "362",
+      "name": "كفر صقر",
+      "city_id": 224,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "30.79402000",
+      "longitude": "31.62698900"
+    },
+    {
+      "id": 363,
+      "branch_code": "363",
+      "name": "هندسة الري منيا القمح",
+      "city_id": 210,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "30.51924000",
+      "longitude": "31.34306000"
+    },
+    {
+      "id": 364,
+      "branch_code": "364",
+      "name": "دار السلام سوهاج",
+      "city_id": 226,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "26.27725722",
+      "longitude": "32.05699000"
+    },
+    {
+      "id": 365,
+      "branch_code": "365",
+      "name": "سوهاج",
+      "city_id": 225,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "26.56763929",
+      "longitude": "31.69564773"
+    },
+    {
+      "id": 366,
+      "branch_code": "366",
+      "name": "ساقلته",
+      "city_id": 227,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "26.66266000",
+      "longitude": "31.67206000"
+    },
+    {
+      "id": 367,
+      "branch_code": "367",
+      "name": "الجرجاوية",
+      "city_id": 225,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "26.54567000",
+      "longitude": "31.69813000"
+    },
+    {
+      "id": 368,
+      "branch_code": "368",
+      "name": "مدينة جهينة",
+      "city_id": 229,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "26.67024000",
+      "longitude": "31.50370000"
+    },
+    {
+      "id": 369,
+      "branch_code": "369",
+      "name": "الكــــــــوثـــر- محافظة سوهاج",
+      "city_id": 230,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "26.61026000",
+      "longitude": "31.79068000"
+    },
+    {
+      "id": 370,
+      "branch_code": "370",
+      "name": "طهطا",
+      "city_id": 231,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "26.77042037",
+      "longitude": "31.49937160"
+    },
+    {
+      "id": 371,
+      "branch_code": "371",
+      "name": "جرجا",
+      "city_id": 228,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "26.33342712",
+      "longitude": "31.89081341"
+    },
+    {
+      "id": 372,
+      "branch_code": "372",
+      "name": "أخميم",
+      "city_id": 232,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "26.55929155",
+      "longitude": "31.71337814"
+    },
+    {
+      "id": 373,
+      "branch_code": "373",
+      "name": "البلينا",
+      "city_id": 233,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "26.23294095",
+      "longitude": "31.99853389"
+    },
+    {
+      "id": 374,
+      "branch_code": "374",
+      "name": "طما",
+      "city_id": 234,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "26.90553565",
+      "longitude": "31.43337462"
+    },
+    {
+      "id": 375,
+      "branch_code": "375",
+      "name": "المنشاه",
+      "city_id": 235,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "26.47660201",
+      "longitude": "31.79686575"
+    },
+    {
+      "id": 376,
+      "branch_code": "376",
+      "name": "المراغة",
+      "city_id": 236,
+      "class_id": 4,
+      "status": "ACTIVE",
+      "latitude": "26.69859100",
+      "longitude": "31.60265600"
+    },
+    {
+      "id": 377,
+      "branch_code": "377",
+      "name": "محطة قطار سوهاج",
+      "city_id": 225,
+      "class_id": 1,
+      "status": "ACTIVE",
+      "latitude": "26.56763929",
+      "longitude": "31.69564773"
+    },
+    {
+      "id": 378,
+      "branch_code": "378",
+      "name": "السويس",
+      "city_id": 237,
+      "class_id": 2,
+      "status": "ACTIVE",
+      "latitude": "29.97974420",
+      "longitude": "32.54857630"
+    },
+    {
+      "id": 379,
+      "branch_code": "379",
+      "name": "شارع ناصر - فيصل-السويس",
+      "city_id": 238,
+      "class_id": 3,
+      "status": "ACTIVE",
+      "latitude": "29.97754000",
+      "longitude": "32.52290000"
+    }
+  ],
+  "systemSettings": [
+    {
+      "id": 1,
+      "opening_time": "09:00:00",
+      "closing_time": "22:00:00",
+      "slot_interval": 15
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import availabilityRoutes from "./routes/availability.routes.js";
 import bookingRoutes from "./routes/booking.routes.js";
 import { errorMiddleware } from "./middleware/error.middleware.js";
 import path from "path";
+import pool from "./config/database.js";
 
 const app = express();
 app.use(express.json());
@@ -25,6 +26,15 @@ app.use("/api/cities", cityRoutes);
 app.use("/api/branches", branchRoutes);
 app.use("/api/availability", availabilityRoutes);
 app.use("/api/bookings", bookingRoutes);
+
+app.get("/health", async (_req, res) => {
+  try {
+    await pool.query("SELECT 1");
+    return res.status(200).json({ status: "ok", database: "ok" });
+  } catch {
+    return res.status(503).json({ status: "error", database: "unavailable" });
+  }
+});
 
 app.get("/", (req, res) => {
   res.render("index");
