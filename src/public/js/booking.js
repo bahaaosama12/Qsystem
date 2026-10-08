@@ -53,11 +53,25 @@ const formatTime = (time) => {
 };
 
 const formatDateForInput = (date) => {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
+  const year = date.getUTCFullYear();
+  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(date.getUTCDate()).padStart(2, "0");
 
   return `${year}-${month}-${day}`;
+};
+const getCairoDateForInput = () => {
+  const dateParts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Africa/Cairo",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    })
+      .formatToParts(new Date())
+      .map(({ type, value }) => [type, value]),
+  );
+
+  return `${dateParts.year}-${dateParts.month}-${dateParts.day}`;
 };
 
 // ============================================================
@@ -211,15 +225,43 @@ const getBranches = (cityId) =>
 // Date & Time
 // ============================================================
 const setDateRange = () => {
-  const today = new Date();
-  const maxDate = new Date();
+  const today = getCairoDateForInput();
+  const maxDate = new Date(`${today}T00:00:00Z`);
 
-  maxDate.setDate(maxDate.getDate() + MAX_BOOKING_DAYS_AHEAD);
+  maxDate.setUTCDate(
+    maxDate.getUTCDate() +
+      MAX_BOOKING_DAYS_AHEAD,
+  );
 
-  appointmentDate.min = formatDateForInput(today);
+  appointmentDate.min = today;
   appointmentDate.max = formatDateForInput(maxDate);
+
   appointmentDate.disabled = false;
 };
+
+const validateAppointmentDate = () => {
+  const selectedDate = appointmentDate.value;
+
+  if (!selectedDate) {
+    return true;
+  }
+
+  if (
+    selectedDate < appointmentDate.min ||
+    selectedDate > appointmentDate.max
+  ) {
+    appointmentDate.value = "";
+    resetTime();
+    return false;
+  }
+
+  return true;
+};
+
+appointmentDate.addEventListener(
+  "input",
+  validateAppointmentDate,
+);
 
 // A slot can be a plain string ("09:00") or an object ({ appointment_time })
 const getSlotTime = (slot) =>
@@ -298,6 +340,10 @@ const changeHandlers = {
   },
 
   "appointment-date": async () => {
+    if (!validateAppointmentDate()) {
+      return;
+    }
+
     const selectedDate = appointmentDate.value;
 
     if (!selectedDate) {
