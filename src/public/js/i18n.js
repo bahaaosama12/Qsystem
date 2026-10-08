@@ -9,6 +9,8 @@ const translations = {
 
     nationalId: "National ID",
     phone: "Phone Number",
+    invalidNationalId: "National ID must contain exactly 14 digits.",
+    invalidPhone: "Enter a valid Egyptian mobile number (11 digits starting with 010, 011, 012, or 015).",
     continue: "Continue",
 
     onlineBooking: "Online Booking",
@@ -51,6 +53,8 @@ const translations = {
 
     nationalId: "الرقم القومي",
     phone: "رقم الهاتف",
+    invalidNationalId: "يجب أن يتكون الرقم القومي من 14 رقمًا بالضبط.",
+    invalidPhone: "أدخل رقم موبايل مصريًا صحيحًا من 11 رقمًا ويبدأ بـ 010 أو 011 أو 012 أو 015.",
     continue: "متابعة",
 
     onlineBooking: "الحجز الإلكتروني",

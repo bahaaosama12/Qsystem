@@ -1,6 +1,82 @@
 // DOM Elements
 const form = document.getElementById("customer-form");
 const lookupError = document.getElementById("lookup-error");
+const nationalIdInput = document.getElementById("nationalId");
+const phoneInput = document.getElementById("phone");
+
+const validateIdentityInput = (input) => {
+  const isValid = input.id === "nationalId"
+    ? /^\d{14}$/.test(input.value)
+    : /^01[0125]\d{8}$/.test(input.value);
+
+  input.classList.toggle("is-invalid", !isValid);
+  input.setAttribute("aria-invalid", String(!isValid));
+
+  return isValid;
+};
+
+const showIdentityValidationError = (input) => {
+  const messageKey = input.id === "nationalId"
+    ? "invalidNationalId"
+    : "invalidPhone";
+
+  lookupError.textContent =
+    translations[currentLanguage][messageKey];
+  lookupError.classList.remove("d-none");
+};
+
+[nationalIdInput, phoneInput].forEach((input) => {
+  let touched = false;
+
+  input.addEventListener("input", () => {
+    touched = true;
+    const isValid = validateIdentityInput(input);
+
+    if (!isValid) {
+      showIdentityValidationError(input);
+    } else {
+      const firstInvalidInput =
+        [nationalIdInput, phoneInput].find((field) =>
+          field.classList.contains("is-invalid"),
+        );
+
+      if (firstInvalidInput) {
+        showIdentityValidationError(firstInvalidInput);
+      } else {
+        lookupError.classList.add("d-none");
+        lookupError.textContent = "";
+      }
+    }
+  });
+
+  input.addEventListener("change", () => {
+    if (touched || input.value) {
+      const isValid = validateIdentityInput(input);
+
+      if (!isValid) {
+        showIdentityValidationError(input);
+      } else {
+        const firstInvalidInput =
+          [nationalIdInput, phoneInput].find((field) =>
+            field.classList.contains("is-invalid"),
+          );
+
+        if (firstInvalidInput) {
+          showIdentityValidationError(firstInvalidInput);
+        } else {
+          lookupError.classList.add("d-none");
+          lookupError.textContent = "";
+        }
+      }
+    }
+  });
+
+  input.addEventListener("invalid", () => {
+    touched = true;
+    validateIdentityInput(input);
+    showIdentityValidationError(input);
+  });
+});
 const bookingModalElement = document.getElementById("bookingModal");
 const bookingModal = new bootstrap.Modal(bookingModalElement);
 const ticketBranch = document.getElementById("ticket-branch");
@@ -40,6 +116,18 @@ const displayBooking = (booking) => {
 // Get Active Booking
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
+
+  const nationalIdValid =
+    validateIdentityInput(nationalIdInput);
+  const phoneValid =
+    validateIdentityInput(phoneInput);
+
+  if (!nationalIdValid || !phoneValid) {
+    showIdentityValidationError(
+      nationalIdValid ? phoneInput : nationalIdInput,
+    );
+    return;
+  }
 
   const nationalId = document.getElementById("nationalId").value;
   const phone = document.getElementById("phone").value;
