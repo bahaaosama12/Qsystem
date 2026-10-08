@@ -158,6 +158,7 @@ cancelButton.addEventListener("click", async () => {
     sessionStorage.removeItem("nationalId");
     sessionStorage.removeItem("phone");
     sessionStorage.removeItem("bookingCreated");
+    sessionStorage.removeItem("modifyBooking");
     window.location.href = "/";
   } catch (error) {
     console.error("Failed to cancel booking:", error);
