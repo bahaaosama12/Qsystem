@@ -35,6 +35,14 @@ const translations = {
     selectTime: "Select Time",
 
     booking: "Booking",
+
+    serviceNotAvailable: "The selected service is not available at this branch. Please choose another branch.",
+    branchNotAvailable: "The selected branch is currently unavailable. Please choose another branch.",
+    invalidAppointmentDate: "The selected date is not available for booking. Please choose another date.",
+    invalidAppointmentTime: "The selected time is not available. Please choose another time.",
+    activeBookingExists: "You already have an active booking.",
+    slotNotAvailable: "The selected appointment is no longer available. Please choose another time.",
+    genericBookingError: "Something went wrong while creating your booking. Please try again.",
   },
 
   ar: {
@@ -69,6 +77,14 @@ const translations = {
     selectTime: "اختر الموعد",
 
     booking: "حجز",
+
+    serviceNotAvailable: "الخدمة المختارة غير متاحة في هذا الفرع، برجاء اختيار فرع آخر.",
+    branchNotAvailable: "الفرع المختار غير متاح حاليًا، برجاء اختيار فرع آخر.",
+    invalidAppointmentDate: "التاريخ المختار غير متاح للحجز، برجاء اختيار تاريخ آخر.",
+    invalidAppointmentTime: "الموعد المختار غير متاح، برجاء اختيار موعد آخر.",
+    activeBookingExists: "لديك حجز حالي بالفعل.",
+    slotNotAvailable: "الموعد المختار لم يعد متاحًا، برجاء اختيار موعد آخر.",
+    genericBookingError: "حدث خطأ أثناء إنشاء الحجز، برجاء المحاولة مرة أخرى.",
   },
 };
 

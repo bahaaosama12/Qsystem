@@ -51,6 +51,7 @@ export const getActiveBooking = async (nationalId: string, phone: string) => {
     `
     SELECT
       b.id,
+      b.national_id,
       b.phone,
       b.branch_id,
       b.department_id,

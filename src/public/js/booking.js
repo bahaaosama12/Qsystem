@@ -11,6 +11,7 @@ const appointmentDate = document.getElementById("appointment-date");
 const timeSection = document.getElementById("time-section");
 const appointmentTime = document.getElementById("appointment-time");
 const confirmBookingButton = document.getElementById("confirm-booking");
+const bookingError = document.getElementById("booking-error");
 const modifyBooking = JSON.parse(sessionStorage.getItem("modifyBooking") || "null");
 const isModifyMode = Boolean(modifyBooking);
 
@@ -109,6 +110,32 @@ const setDefaultOption = (select, defaultKey) => {
 const clearSelect = (select, defaultKey) => {
   setDefaultOption(select, defaultKey);
   select.disabled = true;
+};
+
+// ============================================================
+// Booking Error
+// ============================================================
+const showBookingError = (message) => {
+  bookingError.textContent = message;
+  bookingError.classList.remove("d-none");
+};
+
+const hideBookingError = () => {
+  bookingError.textContent = "";
+  bookingError.classList.add("d-none");
+};
+
+const getBookingErrorMessage = (code) => {
+  const messages = {
+    SERVICE_NOT_AVAILABLE: "serviceNotAvailable",
+    BRANCH_NOT_AVAILABLE: "branchNotAvailable",
+    INVALID_APPOINTMENT_DATE: "invalidAppointmentDate",
+    INVALID_APPOINTMENT_TIME: "invalidAppointmentTime",
+    ACTIVE_BOOKING_EXISTS: "activeBookingExists",
+    SLOT_NOT_AVAILABLE: "slotNotAvailable",
+  };
+  const key = messages[code];
+  return key ? translations[currentLanguage][key] : translations[currentLanguage].genericBookingError;
 };
 
 // ============================================================
@@ -521,6 +548,7 @@ const getBookingData = () => ({
 
 bookingForm.addEventListener("submit", async (event) => {
   event.preventDefault();
+  hideBookingError();
 
   if (!appointmentTime.value) {
     return;
@@ -561,7 +589,7 @@ bookingForm.addEventListener("submit", async (event) => {
     const result = await response.json();
 
     if (!response.ok) {
-      console.error("Booking error:", result);
+      showBookingError(getBookingErrorMessage(result.code));
       return;
     }
 
