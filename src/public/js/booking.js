@@ -11,6 +11,8 @@ const appointmentDate = document.getElementById("appointment-date");
 const timeSection = document.getElementById("time-section");
 const appointmentTime = document.getElementById("appointment-time");
 const confirmBookingButton = document.getElementById("confirm-booking");
+const modifyBooking = JSON.parse(sessionStorage.getItem("modifyBooking") || "null");
+const isModifyMode = Boolean(modifyBooking);
 
 // ============================================================
 // Constants
@@ -286,9 +288,11 @@ const getAvailableTimes = async (date) => {
     appointmentTime.disabled = true;
     confirmBookingButton.disabled = true;
 
+    const branchId = isModifyMode ? modifyBooking.branch_id : branchSelect.value;
+    const departmentId = isModifyMode ? modifyBooking.department_id : departmentSelect.value;
     const slots = await fetchList(
       "availability",
-      API.availability(branchSelect.value, departmentSelect.value, date),
+      API.availability(branchId, departmentId, date),
     );
 
     if (!slots || slots.length === 0) {
@@ -303,6 +307,23 @@ const getAvailableTimes = async (date) => {
   } catch (error) {
     console.error("Failed to load available times:", error);
   }
+};
+
+// ============================================================
+// Modify Mode
+// ============================================================
+const initializeModifyMode = () => {
+  [departmentSelect, serviceSelect, governorateSelect, citySelect, branchSelect]
+    .forEach((select) => {
+      const wrapper = select.closest(".mb-3") || select.parentElement;
+      wrapper?.classList.add("d-none");
+      select.required = false;
+      select.disabled = true;
+    });
+
+  setDateRange();
+  appointmentDate.value = "";
+  resetTime();
 };
 
 // ============================================================
@@ -506,6 +527,29 @@ bookingForm.addEventListener("submit", async (event) => {
   }
 
   try {
+    if (isModifyMode) {
+      const response = await fetch("/api/bookings/" + modifyBooking.id, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          appointmentDate: appointmentDate.value,
+          appointmentTime: appointmentTime.value,
+        }),
+      });
+      const result = await response.json();
+      if (!response.ok) {
+        console.error("Booking modification failed:", result);
+        return;
+      }
+
+      sessionStorage.setItem("nationalId", modifyBooking.national_id);
+      sessionStorage.setItem("phone", modifyBooking.phone);
+      sessionStorage.setItem("bookingCreated", "true");
+      sessionStorage.removeItem("modifyBooking");
+      window.location.href = "/";
+      return;
+    }
+
     const response = await fetch("/api/bookings", {
       method: "POST",
       headers: {
@@ -534,5 +578,9 @@ bookingForm.addEventListener("submit", async (event) => {
 // ============================================================
 // Initialize
 // ============================================================
-resetFromDepartment();
-getDepartments();
+if (isModifyMode) {
+  initializeModifyMode();
+} else {
+  resetFromDepartment();
+  getDepartments();
+}

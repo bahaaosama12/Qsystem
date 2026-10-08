@@ -9,8 +9,13 @@ const ticketTime = document.getElementById("ticket-time");
 const ticketPhone = document.getElementById("ticket-phone");
 const ticketDepartment = document.getElementById("ticket-department");
 const ticketService = document.getElementById("ticket-service");
+const modifyButton = document.getElementById("modify-booking-btn");
+const cancelButton = document.getElementById("cancel-booking-btn");
+const downloadButton = document.getElementById("download-ticket-btn");
+let currentBooking = null;
 
 const displayBooking = (booking) => {
+  currentBooking = booking;
   const appointmentDate = new Date(booking.appointment_date).toLocaleDateString(
     "en-GB",
     { day: "2-digit", month: "2-digit", year: "numeric", timeZone: "Africa/Cairo" },
@@ -92,3 +97,76 @@ const showCreatedBooking = async () => {
 };
 
 showCreatedBooking();
+
+
+// Ticket actions
+const downloadTicketAsPDF = async () => {
+  if (!currentBooking) return;
+  const ticket = document.getElementById("ticket");
+  if (!ticket) return;
+
+  downloadButton.disabled = true;
+  const hiddenElements = ticket.querySelectorAll(
+    ".ticket-close, .ticket-main-actions, #download-ticket-btn",
+  );
+
+  try {
+    hiddenElements.forEach((element) => { element.style.display = "none"; });
+    await new Promise((resolve) => setTimeout(resolve, 100));
+    const canvas = await html2canvas(ticket, {
+      scale: 3,
+      useCORS: true,
+      backgroundColor: "#ffffff",
+      logging: false,
+    });
+    const imageData = canvas.toDataURL("image/png", 1.0);
+    const { jsPDF } = window.jspdf;
+    const pdfWidth = 210;
+    const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+    const pdf = new jsPDF({
+      orientation: pdfWidth > pdfHeight ? "landscape" : "portrait",
+      unit: "mm",
+      format: [pdfWidth, pdfHeight],
+    });
+    pdf.addImage(imageData, "PNG", 0, 0, pdfWidth, pdfHeight, undefined, "FAST");
+    pdf.save("QSystem-Ticket-" + currentBooking.id + ".pdf");
+  } catch (error) {
+    console.error("Failed to download ticket:", error);
+  } finally {
+    hiddenElements.forEach((element) => { element.style.display = ""; });
+    downloadButton.disabled = false;
+  }
+};
+
+downloadButton.addEventListener("click", downloadTicketAsPDF);
+
+cancelButton.addEventListener("click", async () => {
+  if (!currentBooking) return;
+  if (!window.confirm("Are you sure you want to cancel your booking?")) return;
+
+  try {
+    const response = await fetch("/api/bookings/" + currentBooking.id + "/cancel", {
+      method: "PATCH",
+    });
+    const result = await response.json();
+    if (!response.ok) {
+      console.error("Failed to cancel booking:", result);
+      return;
+    }
+
+    bookingModal.hide();
+    sessionStorage.removeItem("nationalId");
+    sessionStorage.removeItem("phone");
+    sessionStorage.removeItem("bookingCreated");
+    window.location.href = "/";
+  } catch (error) {
+    console.error("Failed to cancel booking:", error);
+  }
+});
+
+modifyButton.addEventListener("click", () => {
+  if (!currentBooking) return;
+  sessionStorage.setItem("modifyBooking", JSON.stringify(currentBooking));
+  bookingModal.hide();
+  window.location.href = "/booking";
+});
