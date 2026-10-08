@@ -53,8 +53,8 @@ const translations = {
 
     nationalId: "الرقم القومي",
     phone: "رقم الهاتف",
-    invalidNationalId: "يجب أن يتكون الرقم القومي من 14 رقمًا بالضبط.",
-    invalidPhone: "أدخل رقم موبايل مصريًا صحيحًا من 11 رقمًا ويبدأ بـ 010 أو 011 أو 012 أو 015.",
+    invalidNationalId: "يجب أن يتكون الرقم القومي  مكون من 14 رقم .",
+    invalidPhone: "أدخل رقم موبايل  صحيح مكون من 11 .",
     continue: "متابعة",
 
     onlineBooking: "الحجز الإلكتروني",
