@@ -11,6 +11,7 @@ import {
   getBookingById,
   getBookingByIdForUpdate,
   checkBookingSlot,
+  findActiveBookingByNationalIdOrPhone,
   updateBooking as updateBookingRepository,
   expireBookings as expireBookingsRepository,
 } from "../repositories/booking.repository.js";
@@ -51,6 +52,15 @@ export const createBooking = async (bookingData: CreateBookingData) => {
 
   try {
     await client.query("BEGIN");
+
+    const activeBooking = await findActiveBookingByNationalIdOrPhone(
+      nationalId,
+      phone,
+    );
+
+    if (activeBooking) {
+      throw new AppError("ACTIVE_BOOKING_EXISTS", 409);
+    }
 
     const branch = await getActiveBranch(client, branchId);
 
@@ -146,6 +156,16 @@ export const getActiveBooking = async (
   );
 
   if (!booking) {
+    const bookingWithMatchingIdentity =
+      await findActiveBookingByNationalIdOrPhone(
+        nationalId,
+        phone,
+      );
+
+    if (bookingWithMatchingIdentity) {
+      throw new AppError("BOOKING_IDENTITY_MISMATCH", 409);
+    }
+
     return null;
   }
 

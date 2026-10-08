@@ -1,5 +1,6 @@
 // DOM Elements
 const form = document.getElementById("customer-form");
+const lookupError = document.getElementById("lookup-error");
 const bookingModalElement = document.getElementById("bookingModal");
 const bookingModal = new bootstrap.Modal(bookingModalElement);
 const ticketBranch = document.getElementById("ticket-branch");
@@ -47,6 +48,12 @@ form.addEventListener("submit", async (event) => {
   });
 
   const result = await response.json();
+
+  if (result.code === "BOOKING_IDENTITY_MISMATCH") {
+    lookupError.textContent = "The National ID and phone do not match the same active booking. Please check both values and try again.";
+    lookupError.classList.remove("d-none");
+    return;
+  }
 
   if (!result.data) {
     sessionStorage.setItem("nationalId", nationalId);

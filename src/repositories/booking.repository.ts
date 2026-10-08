@@ -75,6 +75,23 @@ export const getActiveBooking = async (nationalId: string, phone: string) => {
   return result.rows[0];
 };
 
+export const findActiveBookingByNationalIdOrPhone = async (
+  nationalId: string,
+  phone: string,
+) => {
+  const result = await pool.query(
+    `
+      SELECT *
+      FROM bookings
+      WHERE (national_id = $1 OR phone = $2)
+        AND status = 'CONFIRMED';
+    `,
+    [nationalId, phone],
+  );
+
+  return result.rows[0];
+};
+
 export const cancelBooking = async (bookingId: number) => {
   const result = await pool.query(
     `
