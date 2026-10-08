@@ -4,13 +4,29 @@ const lookupError = document.getElementById("lookup-error");
 const nationalIdInput = document.getElementById("nationalId");
 const phoneInput = document.getElementById("phone");
 
-const validateIdentityInput = (input) => {
+const validateIdentityInput = (input, isEditing = false) => {
+  const value = input.value;
+  const isNationalId = input.id === "nationalId";
   const isValid = input.id === "nationalId"
-    ? /^\d{14}$/.test(input.value)
-    : /^01[0125]\d{8}$/.test(input.value);
+    ? /^\d{14}$/.test(value)
+    : /^01[0125]\d{8}$/.test(value);
+  const maxLength = isNationalId ? 14 : 11;
+  const hasNonDigits = !/^\d*$/.test(value);
+  const hasImpossiblePhonePrefix =
+    !isNationalId &&
+    value.length > 0 &&
+    !["010", "011", "012", "015"].some((prefix) =>
+      prefix.startsWith(value.slice(0, Math.min(value.length, 3))),
+    );
+  const isClearlyInvalidWhileEditing =
+    hasNonDigits ||
+    value.length > maxLength ||
+    hasImpossiblePhonePrefix;
+  const shouldShowError =
+    !isValid && (!isEditing || isClearlyInvalidWhileEditing);
 
-  input.classList.toggle("is-invalid", !isValid);
-  input.setAttribute("aria-invalid", String(!isValid));
+  input.classList.toggle("is-invalid", shouldShowError);
+  input.setAttribute("aria-invalid", String(shouldShowError));
 
   return isValid;
 };
@@ -25,56 +41,34 @@ const showIdentityValidationError = (input) => {
   lookupError.classList.remove("d-none");
 };
 
+const refreshIdentityValidationError = () => {
+  const invalidInput =
+    [nationalIdInput, phoneInput].find((input) =>
+      input.classList.contains("is-invalid"),
+    );
+
+  if (invalidInput) {
+    showIdentityValidationError(invalidInput);
+  } else {
+    lookupError.classList.add("d-none");
+    lookupError.textContent = "";
+  }
+};
+
 [nationalIdInput, phoneInput].forEach((input) => {
-  let touched = false;
-
   input.addEventListener("input", () => {
-    touched = true;
-    const isValid = validateIdentityInput(input);
-
-    if (!isValid) {
-      showIdentityValidationError(input);
-    } else {
-      const firstInvalidInput =
-        [nationalIdInput, phoneInput].find((field) =>
-          field.classList.contains("is-invalid"),
-        );
-
-      if (firstInvalidInput) {
-        showIdentityValidationError(firstInvalidInput);
-      } else {
-        lookupError.classList.add("d-none");
-        lookupError.textContent = "";
-      }
-    }
+    validateIdentityInput(input, true);
+    refreshIdentityValidationError();
   });
 
-  input.addEventListener("change", () => {
-    if (touched || input.value) {
-      const isValid = validateIdentityInput(input);
-
-      if (!isValid) {
-        showIdentityValidationError(input);
-      } else {
-        const firstInvalidInput =
-          [nationalIdInput, phoneInput].find((field) =>
-            field.classList.contains("is-invalid"),
-          );
-
-        if (firstInvalidInput) {
-          showIdentityValidationError(firstInvalidInput);
-        } else {
-          lookupError.classList.add("d-none");
-          lookupError.textContent = "";
-        }
-      }
-    }
+  input.addEventListener("blur", () => {
+    validateIdentityInput(input);
+    refreshIdentityValidationError();
   });
 
   input.addEventListener("invalid", () => {
-    touched = true;
     validateIdentityInput(input);
-    showIdentityValidationError(input);
+    refreshIdentityValidationError();
   });
 });
 const bookingModalElement = document.getElementById("bookingModal");
